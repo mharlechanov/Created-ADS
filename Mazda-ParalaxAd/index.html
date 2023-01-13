@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+
+</head>
+
+<body>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=no"/>
+    <title>Mazda | Panorama Ad</title>
+    <link rel="stylesheet" href="style/preloader.css"/>
+    <link rel="stylesheet" href="style/banner.css">
+    <link rel="stylesheet" href="style/fallback.css">
+    <script>
+        
+		
+		
+		var clickUrl1="";
+		var clickUrlBackground = "";
+		
+		
+		var trackingFromLeftToRightURL = "";
+        var trackingFromRightToLeftURL = "";
+		
+		
+
+        function CTA1Click() {
+            isBackgroundSensitive = false;
+            window.open(clickUrl1);
+            console.log("test");
+        };
+
+        function CTA2Click() {
+            isBackgroundSensitive = false;
+            window.open(clickUrl1);
+			
+        };
+
+        function panoramaClick() {
+            if (isBackgroundSensitive) {
+                window.open(clickUrlBackground);
+            } else {
+                isBackgroundSensitive = true;
+            }
+        };
+
+		
+
+       
+
+        function directionTrack(direction) {
+            var trackURL;
+            switch (direction) {
+                case "rechts":
+                    trackURL = trackingFromLeftToRightURL;
+                    break;
+                case "links":
+                    trackURL = trackingFromRightToLeftURL;
+                    break;
+            };
+            var img = new Image();
+            img.src = trackURL;
+        };
+				
+        function trackingFromRightToLeft() {
+            directionTrack("links");
+        };
+
+        function trackingFromLeftToRight() {
+            directionTrack("rechts");
+        };
+
+    </script>
+
+<div id="preloader-container" onclick="panoramaClick()">
+    <div id="preloader"></div>
+</div>
+<script src="js/lottie.min.js"></script>
+<script style="position:absolute;top:0;left:0">
+
+    var preloaderAnimation = lottie.loadAnimation({
+        container: document.getElementById("preloader"),
+        renderer: "svg",
+        loop: true,
+        autoplay: true,
+        path: "lottie/preloader.json"
+    });
+
+    function killPreloader() {
+        preloaderAnimation.stop();
+        document.getElementById("preloader-container").style.display = "none";
+    }
+</script>
+
+
+<div id="animation_container" style="display: none">
+    <div id="parallax-div" style="position: absolute; width: 100%; height: 100%;">
+
+    </div>
+
+    <div id="scroller-informer">
+        <div id="scroller-indicator"></div>
+    </div>
+
+    <div id="cover-elements">
+
+    </div>
+  
+    
+    <div id="help-animation">
+    </div>
+
+
+</div>
+
+<div id="landscape_fallback" style="display:none">
+    <div class="fallback_content">
+        <img src="images/no-landscape.jpg">
+    </div>
+</div>
+
+<script src="js/pixi.min.js"></script>
+<script src="js/TweenMax.min.js"></script>
+
+<script src="js/FallbackController.js"></script>
+<script src="js/GyroParallax.js"></script>
+
+
+
+<script src="js/index.js"></script>
+
+<script>
+    function applyImageURLs() {
+        let imagesNeedsToLoad = 0;
+        let loadedImages = 0;
+
+        function waitingForInit() {
+            if (window.innerWidth > 0) initBanner(); else requestAnimationFrame(waitingForInit);
+        }
+
+        function checkLoadedImages() {
+            loadedImages++;
+            if (loadedImages === imagesNeedsToLoad) {
+                waitingForInit();
+            }
+        };
+
+      
+        if (!imagesNeedsToLoad) waitingForInit();
+    };
+
+    applyImageURLs();
+</script>
+</body>
+</html>

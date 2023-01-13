@@ -1,0 +1,30 @@
+#landscape_fallback {
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    z-index: 20000;
+}
+.fallback_content {
+    position: relative;
+    width: 80%;
+    height: 230px;
+    margin: 0 auto;
+    top: 50%;
+    margin-top: -115px;
+    font-size: 1.1em;
+}
+
+.fallback_content img {
+    width: 80%;
+}
+
+.fallback_content p {
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+}

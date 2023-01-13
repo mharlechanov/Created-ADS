@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <title>HYNDAI | Dealer</title>
+    <link rel="stylesheet" href="style/font.css">
+    <script src="js/orientationController.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="style/basic.css">
+    <script src="js/bodyScrollLock.js"></script>
+    <link rel="stylesheet" href="style/banner.css">
+    <script src="js/loadDealers.js"></script>
+    <script>
+        var clickURL = "";
+		
+        dealerId = "HMD2283";
+        function clickOut(){
+            var url=clickURL;
+            window.open(url,"blank");
+        }
+
+        var dealerURL;
+        function setUrlRromDealer(url){
+            dealerURL= url;
+        }
+
+    </script>
+    <script src="js/TweenMax.min.js"></script>
+
+</head>
+<body onload="initBanner()" onclick="clickOut()">
+
+<div id="ad-container" style="display: none;">
+    <div style="display: none">
+        <img src="img/Photo_bckg.jpg">
+    </div>
+    <div id="screen01">
+        <div id="screen01-bg" class="bg-image-cover" style="background-image: url(img/Photo_bckg.jpg)"></div>
+        <div id="screen01-msg1" class="bg-image-contain" style="background-image: url(img/text-1.png)"></div>        
+        <div id="screen01-blue-bg">
+            <div id="screen01-price" class="bg-image-contain" style="background-image: url(img/price.svg)"><b id="dealer-price"></b></div>			
+        </div>
+    </div>
+    <div id="screen02">
+	<div id="screen02-msg1" class="bg-image-contain" style="background-image: url(img/text-2.png)"></div>    
+    </div>
+    <div id="logo" class="bg-image-contain"  style="background-image: url(img/Logo.svg)"></div>
+    <div id="logo-blue" class="bg-image-contain"  style="background-image: url(img/Logo-blue.svg)"></div>
+    <div id="screen03">
+            <p id="screen03-title">
+                Der neue Hyundai i10.<br>
+				Jetzt bei Ihrem Hyundai <br>
+				Partner.
+            </p>
+            <p id="dealer-info">
+                <b id="dealer-name">dealer name</b><br>
+                
+            </p>
+            <img id="cta" src="img/Screen3_button_all.svg" onclick="clickOut()">
+    </div>
+
+</div>
+
+<div id="landscape_fallback" style="display:none">
+    <div class="fallback_content">
+        <img src="img/no-landscape.jpg">
+    </div>
+</div>
+
+
+
+</body>
+</html>

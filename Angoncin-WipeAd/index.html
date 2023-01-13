@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5,maximum-scale=0.5, user-scalable=no">
+    <title>Angocin | Wipe Ad</title>
+
+    <link rel="stylesheet" href="style/banner.css">
+    <link rel="stylesheet" href="style/fallback.css">
+    <style>
+        html{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+    <script>
+		var trackInitSwipe="trackInitSwipe";
+        var clickOutUrl = "";
+
+        function clickOut(){
+            window.open(clickOutUrl);
+            console.log("hello")
+        };
+
+        function killBodyClick(){
+            document.querySelector("body").onclick = null;
+            document.querySelector("#animation_container").style.pointerEvents = "auto";
+
+        };
+
+        function onBodyLoad(){
+            initAnimations();
+            initBanner();
+        };
+
+        var globalURLPath = "";
+        
+        var track=false;
+		function addTrackingScript() {
+            if(track==false){
+                track=true;
+            var img = new Image();
+            img.src = trackInitSwipe;
+            }
+        };
+
+    </script>
+
+</head>
+
+<body onload="onBodyLoad();" onclick="clickOut()" style="width:100%; height: 100%" >
+    
+    <div id="animation_container" style="background-color:#aea49a; pointer-events: none;">     
+        <div id="lottie" style="position: absolute;
+        width: 123%;
+        left: -10%;
+        bottom: 0; background-color: #aea49a;" onclick="clickOut()"></div>
+        <div id="parallax-div"  style="position: absolute; width: 100%; height: 100%; background-color: #aea49a;" hidden></div>
+        <div id="disc" hidden onclick="showPopUp()" >          
+            <img src="images/disc.png">
+        </div>
+        <div id="overlay" hidden>
+            <img src="images/dtext.png" id="close-txt"  onclick="closePopUp()">
+          </div>
+    </div>
+        <div id="landscape_fallback" >
+            <div class="fallback_content">
+                <img src="images/no-landscape.jpg" >
+            </div>
+        </div>
+    <script src="js/pixi.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/FallbackController.js"></script>
+    <script src="js/wipeBanner.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/lottie.js"></script>
+</body>
+</html>

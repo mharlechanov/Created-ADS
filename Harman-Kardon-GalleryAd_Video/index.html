@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Harman Kardon | Gallery Ad</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <script>
+        
+       
+        var clickURL = "";
+		var clickURL1="";
+		var clickURL2="";
+		var clickURL3="";
+        var galleryChangedTrackURL = "";
+        
+		
+		var dealerid = "23";
+
+        function clickOut(url){
+            window.open(url,"_blank");
+        };
+		
+		var shopURL = "";
+		
+        function onCTAClicked(){
+            if(shopURL){
+                clickOut(shopURL);
+            }else{
+                clickOut(clickURL);
+            }
+        };
+
+        function onProductClicked(e) {
+            clickOut(e.object.clickUrl);
+        };
+
+        function onClickTillLoading(){
+            clickOut(clickURL);
+        };
+
+        var galleryArray =  [
+            {imgUrl: "img/1.png",priceImg:"img/1.svg", clickUrl:clickURL1, right:"15%", trackingURL:galleryChangedTrackURL},
+            {imgUrl: "img/2.png",priceImg:"img/2.svg", clickUrl:clickURL2, right:"15%",trackingURL:galleryChangedTrackURL},
+            {imgUrl: "img/3.png",priceImg:"img/3.svg", clickUrl:clickURL3, right:"15%", trackingURL:galleryChangedTrackURL}
+        ];
+
+
+		
+        function addTrackingScript(trackURL) {
+            var img = new Image();
+            img.src = trackURL;
+        };
+
+        function onZipDataLoaded(shopData){
+            shopURL = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(shopData["PLZ"] + ", " + shopData["address"]);
+        };
+
+        var prevGalleryItem=-1;
+
+        function trackGalleryItem(e){
+            if(e.index!==prevGalleryItem){
+                prevGalleryItem=e.index;
+                addTrackingScript(e.object.trackingURL);
+            }
+        };
+
+        function  killLoader(){
+            document.querySelector("body").onclick = null;
+            document.getElementById("preloader").style.display="none";
+            generalPreloader.stop();
+            document.querySelector("#static-container").style.opacity = 1;
+            document.querySelector("#scroller-informer").style.opacity = 0;
+        };
+
+        function onBodyLoad(){
+            initBanner();
+        };
+
+        function trackVideo(progress){
+            if(progress == 0){
+                console.log('video2-0%');
+            }else if(progress == 25){
+                console.log('video2-25%');
+            } else if(progress == 50){
+                console.log('video2-50%');
+            } else if(progress == 75){
+                console.log('video2-75%');
+            } else if(progress >= 99){
+                console.log('video2-99%');
+            }
+        };
+
+    </script>
+    <link rel="stylesheet" href="style/banner.css">
+
+    <script src="js/player_v1.js"></script>
+    <script src="js/CustomPlayer.js"></script>
+
+
+</head>
+
+<body onload="onBodyLoad();" onclick="clickOut(clickURL)">
+
+
+
+
+<div id="preloader" style="position:absolute; width:10%; height:10%; left: 50%; top: 50%; transform: translate(-50%,-50%)" > </div>
+
+<script src="js/lottie.min.js"></script>
+<script>
+    var generalPreloader=lottie.loadAnimation({
+        container: document.getElementById("preloader"),
+        renderer: "svg",
+        loop: true,
+        autoplay: true,
+        path: "img/preloader.json"
+    });
+
+</script>
+<script src="js/productGallery.js"></script>
+<script src="js/TweenMax.min.js"></script>
+
+<div id="ad-container" style="display: none;">
+    <div hidden>
+        <img src="img/background.png">
+    </div>
+    <div id="bg" style="background-image: url(img/background.png)" style="opacity: 0"></div>
+
+    <div id="scrolling-container">
+	
+
+        <div class="products-scrolling" style ="opacity:0">
+            <!--Gallery items will be placed here--->
+        </div>
+        <img src="img/arrow.svg" class="left-arrow" style="opacity: 0">
+        <img src="img/arrow.svg" class="right-arrow" style="opacity: 0">
+        <img src="img/text.png" class="text" style="opacity: 0">
+
+    </div>
+
+
+
+ <div id="static-container" style ="opacity:0">
+        <div id="logo" onclick="clickOut(clickURL)" style="background-image: url(img/logo_headline.png)"></div>
+        <div id="CTA">
+            <img id="CTA-image" src="img/cta.svg" onclick="onCTAClicked()"/>
+        </div>
+       
+        <div id="video-comtainer">
+            <div id="video"></div>
+            <img id="video-play" src="img/replay-bth.svg">
+        </div>
+    </div>
+
+    <div id="scroller-informer" style ="opacity:0">
+        <div id="scroller-indicator"></div>
+    </div>
+</div>
+<div id="landscape_fallback" style="display: none;">
+    <div class="fallback_content">
+        <img src="img/no-landscape.jpg" style="width: 80%;">
+    </div>
+</div>
+
+    <script src="js/FallbackController.js"></script>
+    <script src="js/bodyScrollLock.js"></script>
+    <script id="galleryItem" type="text/html">
+        <div id = "{{id}}" class = "item-product" style="background-image: url({{img}})">
+            <div class="price" style="right:{{right}}">
+                <img src="{{priceImg}}"/>
+            </div>
+        </div>
+
+    </script>
+    <script src="js/index.js"></script>
+
+
+</body>
+
+</html>

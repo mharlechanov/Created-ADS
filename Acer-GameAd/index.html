@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <title>Acer Game Ad</title>
+    <link rel="stylesheet" href="style/basic.css">
+    <link rel="stylesheet" href="style/banner.css">
+    <script>
+        var clickURL = "";
+        var bgURL = "";
+        var previewMode = false;
+
+        function clickOut(){
+            window.open(clickURL);
+        }
+
+        function backGroundClick(){
+            //clickOut(bgURL);
+            console.log("backGroundClick");
+            if(!previewMode){
+                clickOut();
+            }
+        }
+
+        function gameBackgroundClick(){
+            // clickOut(bgURL);
+            console.log("gameBackgroundClick");
+            if(!previewMode){
+                clickOut();
+            }
+        }
+
+    </script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/lottie.min.js"></script>
+    <link rel="stylesheet" href="style/fonts.css">
+</head>
+<body onload="initBanner()">
+
+<link rel="preload" href="fonts/PREDATOR-BLACK.woff" as="font" crossorigin="anonymous" />
+<div id="ad-container" style="display: none;">
+    <div class="page" id="bg" style="background-image: url(img/bg.jpg)"></div>
+    <div class="page" id="page-game"></div>
+    <div class="page" id="page-start" hidden>
+        <div id="pageStartAnimation"></div>
+        <img src="img/headline-start.svg" class="headline">
+        <img class="button" src="img/cta-start.png" id="btn-start" onclick="startGame()">
+
+        <div class="click-top" onclick="clickOut()"></div>
+        <div class="click-bottom" onclick="startGame()"></div>
+
+        <div class="overlay" hidden onclick="clickOut()">
+            <img src="img/image-fin.jpg" class="gal-img-0">
+            <img src="img/headline-overlay.svg" class="gal-headline-0">
+            <img class="copy" src="img/copyright.svg" alt="">
+        </div>
+
+    </div>
+    <div class="page noselect" id="page-result" hidden >
+        <img src="img/headline-result-1.png" class="headline" id="res-headline1">
+        <img src="img/headline-result-2.png" class="headline" id="res-headline2">
+        <span>23/50</span>
+        <div class="page" id="animation-bam" style="height: 60%; top:40%;"></div>
+        <div class="click-bg" onclick="clickOut()"></div>
+    </div>
+
+    <div class="page noselect" id="page-fin" hidden >
+        <div class="g-0 page" id="g1">
+            <img src="img/image-fin.jpg" class="gal-img-0">
+            <img src="img/headline-fin.svg" class="gal-headline-0">
+            <img class="copy" src="img/copyright.svg" alt="">
+            <div class="click-bg" onclick="clickOut()"></div>
+            <img class="button" src="img/cta-replay.svg" id="btn-restart" onclick="restartGame()" >
+            <img class="button" src="img/cta-start_1.svg" id="btn-site-fin" onclick="clickOut()">
+        </div>
+    </div>
+    <img id="logo" src="img/logo.png">
+
+</div>
+
+<div id="landscape_fallback" style="display:none">
+    <div class="fallback_content">
+        <img src="img/no-landscape.jpg">
+    </div>
+</div>
+
+<script src="js/orientationController.js"></script>
+<script src="js/index.js"></script>
+<script src="js/lottie.min.js"></script>
+<script src="js/bodyScrollLock.js"></script>
+<script src="js/pixi.min.js"></script>
+<script src="js/pixiBanner.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=no"/>
+    <title>Nissan | Panorama</title>
+    <link rel="stylesheet" href="style/preloader.css"/>
+
+
+    <script>
+		
+
+		var clickUrl1="";
+
+        var trackingFromLeftToRightURL = "trackingFromLeftToRightURL";
+        var trackingFromRightToLeftURL = "trackingFromRightToLeftURL";
+        var dealerID="8011";
+
+        var dealerJson = "dealer.json";
+        
+        var previewMode = false;
+        function openPage(url) {
+            window.open(url);
+        };
+
+        function CTA1Click() {
+            if (previewMode) {
+                openPage(clickUrl1);
+            }
+        };
+
+        function panoramaClick() {
+            if (!previewMode) {
+                openPage(clickUrl1);
+            }
+        };
+
+        function directionTrack(direction) {
+            var trackURL;
+            switch (direction) {
+                case "rechts":
+                    trackURL = trackingFromLeftToRightURL;
+                    break;
+                case "links":
+                    trackURL = trackingFromRightToLeftURL;
+                    break;
+            }
+            var img = new Image();
+            img.src = trackURL;
+        };
+
+        function trackingFromRightToLeft() {
+            directionTrack("links");
+        };
+
+        function trackingFromLeftToRight() {
+            directionTrack("rechts");
+        };
+
+    </script>
+
+
+</head>
+
+<body onload="initBanner()">
+
+<div id="preloader-container" style="width: 100%; height: 100%;" onclick="panoramaClick()">
+    <div id="preloader"></div>
+</div>
+<script src="js/lottie.min.js"></script>
+<script>
+    var preloaderAnimation = lottie.loadAnimation({
+        container: document.getElementById("preloader"),
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: 'lottie/preloader.json'
+    });
+
+    function killPreloader() {
+        preloaderAnimation.stop();
+        document.getElementById("preloader-container").style.display = 'none';
+    }
+</script>
+
+<div id="animation_container" style="display: none">
+    <div id="parallax-div" style="position: absolute; width: 100%; height: 100%;">
+
+    </div>
+
+    <div id="scroller-informer">
+        <div id="scroller-indicator"></div>
+    </div>
+
+    <div id="help-animation"onclick="panoramaClick()"></div>
+
+    <div id="dealer">
+        <b>
+            <p id="txt1" onclick="panoramaClick()"></p>
+            <p id="txt2"></p>
+			<p id="txt3"></p>
+        </b>
+    </div>
+</div>
+
+<div id="landscape_fallback" style="display:none">
+    <div class="fallback_content">
+        <img src="images/no-landscape.jpg">
+    </div>
+</div>
+
+<script src="js/pixi.min.js"></script>
+<script src="js/TweenMax.min.js"></script>
+
+<script src="js/FallbackController.js"></script>
+<script src="js/CustomPlayer.js"></script>
+
+<script src="js/GyroParallax.js"></script>
+<script src="js/loadDealers.js"></script>
+
+<link rel="stylesheet" href="style/banner.css">
+<link rel="stylesheet" href="style/fallback.css">
+<script src="js/index.js"></script>
+</body>
+</html>

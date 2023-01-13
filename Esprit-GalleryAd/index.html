@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <title>Esplit Match - gallery ad</title>
+    <script src="js/orientationController.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="style/basic.css">
+    <script src="js/bodyScrollLock.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js/TweenMax.min.js"></script>
+
+    <script>
+		var trackStart="";
+		var trackYes="";
+		var trackNo="";
+		var trackURL="";
+        var clickURL = "";
+		
+        function clickOut(url){
+            if(!url){
+                url = clickURL;
+            }
+            window.open(url);
+
+
+        }
+
+        function trackSwipe(){
+           var img = new Image();
+            img.src = trackURL;
+        }
+		
+		function addTrackingScript(url){
+           var img = new Image();
+            img.src = url;
+        }
+		
+        function galleryClick(id,collection){
+            console.log("galleryClick",id,collection);
+            clickOut(linksArr[collection-1][id.index]);
+        }
+
+        function galleryButton(){
+            clickOut(linksArr[curentQuestion-1][gallerySwipeController.getLocalScroll()]);
+        }
+		
+		
+        var Yoga = [,
+					,
+					];
+
+        var Meditation=[,
+						,
+						];
+
+        var Fitness = [	,
+						,
+						];
+						
+        var linksArr = [Fitness,Yoga,Meditation];
+
+
+        var gloabalURLPath = "";
+			
+    </script>
+    <script src="js/SwipeController.js"></script>
+</head>
+<body id="body" onload="initBanner()" onclick="clickOut()">
+
+<div id="ad-container" style="display: none;">
+    <div id="hidden-loading" hidden>
+        <img src="img/1image-F.jpg">
+        <img src="img/2image-F.jpg">
+        <img src="img/3image-F.jpg">
+        <img src="img/1image-M.jpg">
+        <img src="img/2image-M.jpg">
+        <img src="img/3image-M.jpg">
+        <img src="img/1image-Y.jpg">
+        <img src="img/2image-Y.jpg">
+        <img src="img/3image-Y.jpg">
+        <img src="img/01-1.jpg">
+        <img src="img/01-2.jpg">
+        <img src="img/01-3.jpg">
+        <img src="img/02.jpg">
+        <img src="img/03.jpg">
+        <img src="img/04.jpg">
+        <img src="img/05.jpg">
+    </div>
+    <div id="header">
+        <img id="logo" src="img/Logo.svg">
+    </div>
+    <div id="footer">
+        <img id="url" src="img/web.svg">
+    </div>
+
+
+    <div id="screens">
+        <div hidden id="intro-screen">
+            <div id="sc01-greeting" class="contanimage" style="background-image: url(img/headline.svg)"></div>
+            <div class="cta" id="sc01-cta">
+                <img src="img/cta1.svg">
+            </div>
+
+            <div id="sc01-grid">
+                <div id="sc01-left-image" class="coverimage" style="background-image: url(img/01-1.jpg); background-position: top center;"></div>
+                <div id="sc01-right-image" class="coverimage" style="background-image: url(img/01-2.jpg); background-position: top center;" ></div>
+                <div id="sc01-bottom-image" class="coverimage" style="background-image: url(img/01-3.jpg)"></div>
+            </div>
+        </div>
+        <div id="question-screen" hidden>
+            <div id="question01" hidden>
+                <div class="big-image coverimage" style="background-image: url(img/02.jpg);  background-position: top center;"></div>
+                <div class="question-block">
+                    <div class="question-text contanimage" style="background-image: url(img/1-question.svg);"></div>
+                    <div class="buttons-yes-no">
+                        <img src="img/ico-yes.svg" class="yes">
+                        <img src="img/ico-no.svg" class="no">
+                    </div>
+                </div>
+            </div>
+
+            <div id="question02" hidden>
+                <div class="big-image coverimage" style="background-image: url(img/03.jpg);  background-position: top center;"></div>
+                <div class="question-block">
+                    <div class="question-text contanimage" style="background-image: url(img/2-question.svg);"></div>
+                    <div class="buttons-yes-no">
+                        <img src="img/ico-yes.svg" class="yes">
+                        <img src="img/ico-no.svg" class="no">
+                    </div>
+                </div>
+            </div>
+
+            <div id="question03" hidden>
+                <div class="big-image coverimage" style="background-image: url(img/04.jpg);  background-position: top center;"></div>
+                <div class="question-block">
+                    <div class="question-text contanimage" style="background-image: url(img/3-question.svg);"></div>
+                    <div class="buttons-yes-no">
+                        <img src="img/ico-yes.svg" class="yes" >
+                        <img src="img/ico-no.svg" class="no">
+                    </div>
+                </div>
+            </div>
+
+            <div id="no-answer" hidden>
+                <div class="big-image coverimage" style="background-image: url(img/05.jpg);  background-position: top center;"></div>
+                <div class="question-block">
+                    <div class="fin-text contanimage" style="background-image: url(img/txt-fin.svg);"></div>
+                    <div class="cta" id="fin-cta" onclick="clickOut()">
+                        <img src="img/cta2.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="gallery-screen" hidden>
+            <div id="gallery">
+                <div class="gallery-item" style="left: -120%">
+                    <div class="gallery-image contanimage" style="background-image:url(img/1image-F.jpg)"></div>
+                    <img src="img/1name-F.svg" class="gallery-desc">
+                </div>
+
+                <div class="gallery-item">
+                    <div class="gallery-image contanimage" style="background-image:url(img/2image-F.jpg)"></div>
+                    <img src="img/2name-F.svg" class="gallery-desc">
+                </div>
+
+                <div class="gallery-item" style="left: 120%">
+                    <div class="gallery-image contanimage" style="background-image:url(img/3image-F.jpg)"></div>
+                    <img src="img/3name-F.svg" class="gallery-desc">
+                </div>
+
+                <div class="gallery-item" style="left: 240%">
+                    <div class="gallery-image contanimage" style="background-image:url(img/1image-F.jpg)"></div>
+                    <img src="img/1name-F.svg" class="gallery-desc">
+                </div>
+
+            </div>
+            <img id = "arrow-left" src="img/arrow.svg">
+            <img id = "arrow-right" src="img/arrow.svg">
+
+
+            <div class="cta" id="gallery-cta" onclick="galleryButton()">
+                <img src="img/cta2.svg">
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div id="landscape_fallback" style="display:none">
+    <div class="fallback_content">
+        <img src="img/no-landscape.jpg">
+    </div>
+</div>
+
+
+
+</body>
+</html>

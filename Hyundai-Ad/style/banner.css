@@ -1,0 +1,117 @@
+
+#screen01,#screen02,#screen03{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0;
+}
+
+.bg-image-cover{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+}
+
+.bg-image-contain{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: absolute;
+}
+
+#screen01-bg{
+    width: 100%;
+    height: 100%;
+}
+
+#screen01-msg1{
+    width: 40%;
+    height: 40vw;
+    left:10%;
+}
+#screen02-msg1{
+       width: 82%;
+    height: 56vw;
+    left: 11%;
+}
+#logo,#logo-blue{
+    width: 30vh;
+    height: 8%;
+    bottom: 2%;
+    right: 4%;
+}
+
+#screen01-blue-bg{
+    width: 50%;
+    height: 21vw;
+    position: absolute;
+    background-color: #0b2c60;
+    right: 0;
+    top: calc(37vw + 5vh);
+}
+
+#screen01-price{
+	height: 155%;
+    left: -6vw;
+    width: 114%;
+    top: -20%;
+}
+#dealer-price{
+    font-family: hunday-r;
+    color: white;
+    font-size: 8vw;
+    top: 38%;
+    position: absolute;
+    left: 30%;
+}
+#screen02{
+    
+}
+
+#screen02 span{
+    font-family: hunday-r;
+    color: white;
+    font-size: calc(2.0vw + 0.75vh);
+    padding:2em;
+    box-sizing:content-box;
+    height: 100%;
+    top:0;
+    position: absolute;
+}
+
+#screen03{
+    color: white;
+}
+
+#screen03 p{
+    position: absolute;
+    left: 10%;
+}
+
+#cta{
+    position: absolute;
+    left: 10%;
+    width: 60%;
+    top: 55%;
+    cursor:pointer;
+}
+#dealer-info{
+font-family: hunday-r;
+    position: absolute;
+    color: white;
+    font-size: 6vw;
+    top: 32%;
+    width: 73%;
+}
+
+
+#screen03-title{
+    font-family: hunday-m;
+    font-size:6vw;
+    top: 0%;
+    position: absolute;
+}
+
+
