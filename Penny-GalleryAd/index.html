@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <title>Best Moments Weihnachten Gallery </title>
+    <script src="js/orientationController.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="style/basic.css">
+    <script src="js/bodyScrollLock.js"></script>
+    <link rel="stylesheet" href="style/banner.css">
+    <script src="js/SwipeController.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script>
+        var clickURL = "";
+        function clickOut(url) {
+            window.open(url)
+        }
+
+        function trackSwipe(val){
+            console.log("swipe direction",val)
+        }
+
+        function galleryClick(id){
+            console.log("galleryClick",id);
+            clickOut(clickURL);
+        }
+
+        function trackVideo(progress){
+            if(progress == 0){
+                console.log('video2-0%');
+            }else if(progress == 25){
+                console.log('video2-25%');
+            } else if(progress == 50){
+                console.log('video2-50%');
+            } else if(progress == 75){
+                console.log('video2-75%');
+            } else if(progress >= 99){
+                console.log('video2-99%');
+            }
+        };
+
+        function killlbodyClick(){
+            document.querySelector("body").onclick = null
+        }
+    </script>
+    <script src="js/CustomPlayer.js"></script>
+    <script src="js/player_v1.js"></script>
+</head>
+<body onload="initBanner()" onclick="clickOut(clickURL)">
+
+<div id="ad-container" style="display: none;">
+    <div id = "loading" hidden>
+        <img src="img/bg.jpg">
+        <img src="img/video_preview.jpg">
+    </div>
+
+    <div id="bg" style="background-image: url(img/bg.jpg)" onclick="clickOut(clickURL)"></div>
+    <div id="snow" style="background-image: url(img/snow.png);pointer-events:none"></div>
+
+    <div id="gallery-container">
+        <div id="gallery-bottom" style="pointer-events: none">
+            <div class="gallery-item" style="left:-100%">
+                <img src="img/5_produkt.png" class="gallery-goods">
+            </div>
+            <div class="gallery-item">
+                <div id="video-container" style="background-image: url(img/video_preview.jpg)">
+                    <div id="video" ></div>
+                    <img src="img/btn_play.svg" id="btn-play">
+                </div>
+            </div>
+            <div class="gallery-item" style="left:100%">
+                <img src="img/1_produkt.png" class="gallery-goods">
+            </div>
+            <div class="gallery-item" style="left:200%">
+                <img src="img/2_produkt.png" class="gallery-goods">
+            </div>
+            <div class="gallery-item" style="left:300%">
+                <img src="img/3_produkt.png" class="gallery-goods">
+            </div>
+            <div class="gallery-item" style="left:400%">
+                <img src="img/4_produkt.png" class="gallery-goods">
+            </div>
+            <div class="gallery-item" style="left:500%">
+                <img src="img/5_produkt.png" class="gallery-goods">
+            </div>
+        </div>
+        <div id="prices">
+            <img src="img/5_price.svg" class="price-item" style="left:-120%">
+            <img src="img/1_price.svg" class="price-item" style="left:120%">
+            <img src="img/2_price.svg" class="price-item" style="left:240%">
+            <img src="img/3_price.svg" class="price-item" style="left:360%">
+            <img src="img/4_price.svg" class="price-item" style="left:480%">
+            <img src="img/5_price.svg" class="price-item" style="left:600%">
+
+
+        </div>
+    </div>
+
+    <img src="img/footer.svg" id="footer" style="pointer-events: none">
+    <img src="img/headline.svg" id="headline" style="pointer-events: none">
+    <img src="img/logo.svg" id="logo" style="pointer-events: none">
+    <img src="img/cta.svg" id="cta" style="pointer-events: none">
+    <img src="img/arrow.svg" id = "arrow-left">
+    <img src="img/arrow.svg" id = "arrow-right">
+
+</div>
+
+<div id="landscape_fallback" style="display:none">
+    <div class="fallback_content">
+        <img src="img/no-landscape.jpg">
+    </div>
+</div>
+
+
+
+</body>
+</html>

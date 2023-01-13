@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <title>NISSAN | Dealer</title>
+    <link rel="stylesheet" href="style/font.css">
+    <script src="js/orientationController.js"></script>
+    <script src="js/index.js?v=1"></script>
+    <link rel="stylesheet" href="style/basic.css">
+    <script src="js/bodyScrollLock.js"></script>
+    <link rel="stylesheet" href="style/banner.css?v=3">
+    <script src="js/loadDealers.js"></script>
+    <script>
+        var clickURL = "";
+		
+        dealerid = "01067";
+		var dealersList="dealers.json"
+        function clickOut(shopData){
+		 window.open(shopURL);
+		 }
+		 
+		 function onZipDataLoaded(shopData){
+           shopURL= "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(shopData["zip"] + "," + shopData["Firmierung"] + ", " + shopData["Straße"]);
+		   console.log(shopURL)
+        }
+		
+
+        var dealerURL;
+        function setUrlRromDealer(url){
+            dealerURL= url;
+        }
+		function clickBack(){
+		 window.open("https://www.nissan.de/fahrzeuge/neuwagen/leaf/angebot.html");
+		};
+		
+    </script>
+    <script src="js/TweenMax.min.js"></script>
+
+</head>
+<body onload="initBanner()" >
+
+<div id="ad-container" style="display: none;">
+   
+    <div id="screen01">
+        <div id="screen01-bg" class="bg-image-cover" style="background-image: url(img/background.jpg)" onclick="clickBack()"></div>
+        <div id="screen01-msg1" class="bg-image-contain" style="background-image: url(img/text-center2.png)" onclick="clickBack()"></div>
+        <div id="screen01-msg2" class="bg-image-contain" style="background-image: url(img/text-center.png)" onclick="clickBack()"></div>
+		<div id="logo" class="bg-image-contain"  style="background-image: url(img/logo.png)" onclick="clickBack()"></div>	
+		<div id="screen01-msg4" class="bg-image-contain" style="background-image: url(img/zero.png)" onclick="clickBack()"></div>
+		<div id="screen01-msg5" class="bg-image-contain" style="background-image: url(img/middle.png)" onclick="clickBack()"></div>
+		<p id="screen03-title">
+               <b>NISSAN LEAF: </b>Stromverbrauch kombiniert (kWh/100 km): 20,6–18,5; CO2-Emissionen kombiniert: 0 g/km; 
+				Effizienzklasse: A+– A+<sup>2</sup>.<br><sup>1,2</sup>Details auf <b>nissan.de</b></br>
+            </p>
+		<p id="dealer-info">
+                <b id="dealer-name">dealer name</b><br>
+                <b span id="dealer-address"></span></b>
+            </p>
+            <img id="cta" src="img/cta.png" onclick="clickOut()">
+    </div>
+	
+
+
+</div>
+
+<div id="landscape_fallback" style="display:none">
+    <div class="fallback_content">
+        <img src="img/no-landscape.jpg">
+    </div>
+</div>
+
+
+
+</body>
+</html>

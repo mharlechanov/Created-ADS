@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version='2.0'>
+    <Ad id="31202">
+        <InLine>
+            <AdSystem><![CDATA[MADS/RADS]]></AdSystem>
+            <AdTitle><![CDATA[VAST Example]]></AdTitle>
+            <Description><![CDATA[Inline Video Ad]]></Description>
+			<Impression id="i0"></Impression>
+            <Creatives>
+                <Creative>
+                    <Linear>
+                        <Duration>00:00:25</Duration>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" type="video/mp4" bitrate="1600" width="1280" height="722"><![CDATA[video/video.mp4]]></MediaFile>
+                            <MediaFile delivery="progressive" type="video/mp4" bitrate="600" width="1024" height="578"><![CDATA[video/video.mp4]]></MediaFile>
+                            <MediaFile delivery="progressive" type="video/mp4" bitrate="600" width="1280" height="722"><![CDATA[video/video.mp4]]></MediaFile>
+                            <MediaFile delivery="progressive" type="video/mp4" bitrate="600" width="800" height="452"><![CDATA[video/video.mp4]]></MediaFile>
+                            <MediaFile delivery="progressive" type="video/mp4" bitrate="600" width="818" height="462"><![CDATA[video/video.mp4]]></MediaFile>
+                        </MediaFiles>
+                        
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>

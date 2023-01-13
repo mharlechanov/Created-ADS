@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <title>SEAT Tarraco Tablet Gallery Ad</title>
+    <script src="js/orientationController.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="style/basic.css">
+    <script src="js/bodyScrollLock.js"></script>
+    <link rel="stylesheet" href="style/banner.css">
+    <script src="js/SwipeController.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <style>
+        @font-face {
+            font-family: "MainFont";
+            src: url("fonts/SeatBcn-Regular.woff") format("woff");
+        }
+    </style>
+    <script>
+		var trackSwipe="";
+		var trackHomeBtn="";
+        var clickURL = "";
+        var trackingURLs=[
+            "",
+            "",
+            "",
+            "",
+        ];
+
+        function clickOut(url){
+            if(!url){
+                window.open(clickURL,"_blank");
+            }else{
+                window.open(url,"_blank");
+            }
+
+        };
+
+        function backgroundClick(){
+            window.open(clickURL);
+        }
+
+		function addTrackingScript(url){
+			var img = new Image();
+            img.src = url;
+		}
+
+        function trackGalleryButtons(position){
+            console.log(trackingURLs[position]);
+            addTrackingScript(trackingURLs[position]);
+
+        }
+
+        function trackGallerySwipe(direction, position){
+            console.log("swipe directiom=", direction, "gallery position=", position, "url=", trackingURLs[position]);
+            addTrackingScript(trackingURLs[position]);
+        }
+    </script>
+
+</head>
+<body id="body" onload="initBanner()" onclick="clickOut(clickURL)" >
+<img src="img/preloader.gif" style="position:absolute; left:50%; top:50%; height:4%; transform: translateY(-50%);">
+<div id="ad-container" style="display: none;">
+
+    <div style="display: none" id="preload-background-images">
+        <img src="img/01-image-hor.jpg">
+        <img src="img/02-image-hor.jpg">
+        <img src="img/03-image-hor.jpg">
+        <img src="img/04-image-hor.jpg">
+    </div>
+    <div id="gallery">
+        <div id = "gallery-items">
+            <div class="gallery-item" style="background-image: url(img/01-image-hor.jpg)">
+                <img src="img/pin.svg" class="pin" id="p1" onclick="thumbClick(3)" style="pointer-events: auto">
+                <img src="img/pin.svg" class="pin" id="p2" onclick="thumbClick(4)">
+                <img src="img/pin.svg" class="pin" id="p3" onclick="thumbClick(2)">
+            </div>
+            <div class="gallery-item" style="background-image: url(img/02-image-hor.jpg);left: 100%;"></div>
+            <div class="gallery-item" style="background-image: url(img/03-image-hor.jpg);left: 200%;"></div>
+            <div class="gallery-item" style="background-image: url(img/04-image-hor.jpg);left: 300%;"></div>
+        </div>
+        <div id = "gallery-thumbnals">
+            <div id="gallery-thumbnals-container">
+                <div id = "thumb-highlighter"></div>
+                <div class="thumbnail" id="thumb1"><img src="img/01-slide-ico.jpg" onclick="thumbClick(1)"></div>
+                <div class="thumbnail" id="thumb2"><img src="img/02-slide-ico.jpg" onclick="thumbClick(2)"></div>
+                <div class="thumbnail" id="thumb3"><img src="img/03-slide-ico.jpg" onclick="thumbClick(3)"></div>
+                <div class="thumbnail" id="thumb4"><img src="img/04-slide-ico.jpg" onclick="thumbClick(4)"></div>
+            </div>
+        </div>
+        <img id = "gallery-headline" src="img/01-headline.png">
+        <img id = "arrow-forward" src="img/right-arrow.svg" onclick="nextItem()">
+        <img id = "arrow-backward" src="img/left-arrow.svg" onclick="prevItem()">
+        <img id = "icon-back" src="img/ico-back.svg" onclick="goHome()">
+
+    </div>
+    <div id = "static-elements">
+        <div style="width: 100%; height: 100%; position: absolute" onclick="backgroundClick()"></div>
+        <div id="page-texts" style="pointer-events: none">
+            <img class="page-text" src="img/02-name.svg" id="t2">
+            <img class="page-text" src="img/03-name.svg" id="t3">
+            <img class="page-text" src="img/04-name.svg" id="t4">
+
+        </div>
+        <img src="img/cta.svg" id="cta" onclick="clickOut(clickURL)">
+        <img src="img/logo.svg" id="logo" style="pointer-events: none">
+        <img id = "copy"  src="img/copyright.svg" onclick="openCopyRight()">
+    </div>
+    <div id = "copyright-layer" hidden>
+        <p style="font-family: MainFont;">
+            Weitere Informationen zum offiziellen Kraftstoffverbrauch und den offiziellen spezifischen CO<span style="font-size: 1.5vh">2</span> - Emissionen neuer Personenkraftwagen können dem
+            „Leitfaden über den Kraftstoffverbrauch, die CO<span style="font-size: 1.5vh">2</span> - Emissionen und den Strom-
+            verbrauch neuer Personenkraftwagen“ entnommen werden, der an allen Verkaufsstellen und bei der DAT Deutsche Automobil Treuhand GmbH, Hellmuth-Hirth-Str. 1, D-73760 Ostfildern oder unter <a href="https://www.dat.de/" style="color: black"> <b>www.dat.de</b> </a> unentgeltlich erhältlich ist.
+        </p>
+        <img src="img/close.svg" id="close-button" onclick="closeColyRight()">
+    </div>
+
+</div>
+
+<div id="landscape_fallback" style="display:none">
+    <div class="fallback_content">
+        <img src="img/no-landscape.jpg">
+    </div>
+</div>
+
+
+
+</body>
+</html>

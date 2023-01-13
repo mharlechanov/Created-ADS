@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <title>Reanult | Dealer</title>
+    <link rel="stylesheet" href="style/font.css">
+    <script src="js/orientationController.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="style/basic.css">
+    <script src="js/bodyScrollLock.js"></script>
+    <link rel="stylesheet" href="style/banner.css">
+    <script src="js/loadDealers.js"></script>
+    <script>
+        var clickUrl = "";
+		
+        dealerId = 11133;
+		var dealersList="dealers.json"
+        function clickOut(shopData){
+		 window.open(shopURL);
+		 }
+		 	
+        var dealerURL;
+        function setUrlRromDealer(url){
+            dealerURL= url;
+        }
+		function clickBack(){
+		 window.open(clickUrl);
+		};
+		
+    </script>
+    <script src="js/TweenMax.min.js"></script>
+
+</head>
+<body onload="initBanner()" onclick="clickBack();" >
+
+<div id="ad-container" style="display: none;" >
+   
+    <div id="screen01">
+        <div id="screen01-bg" class="bg-image-cover" style="background-image: url(img/bg.jpg)" ></div>
+        <div id="screen01-msg1" class="bg-image-contain" style="background-image: url(img/text1.png)"></div>
+        <div id="screen01-msg2" class="bg-image-contain" style="background-image: url(img/text2.png)" ></div>
+		<div id="logo" class="bg-image-contain"  style="background-image: url(img/logo.png)" ></div>	
+		<div id="price" class="bg-image-contain"  style="background-image: url(img/price.png)" ></div>
+            <img id="cta" src="img/cta.png">
+    </div>
+    <div id="screen02" hidden> 
+        <p id="dealer-info">
+            <b id="dealer-name">dealer name</b><br>
+            <b span id="dealer-address"></span></b>
+        </p>
+    </div>
+    <div id="screen03" hidden>
+        <div id="legal" class="bg-image-contain"  style="background-image: url(img/legal.png)" ></div>	
+    </div>
+	
+
+
+</div>
+
+<div id="landscape_fallback" style="display:none">
+    <div class="fallback_content">
+        <img src="img/no-landscape.jpg">
+    </div>
+</div>
+
+
+
+</body>
+</html>

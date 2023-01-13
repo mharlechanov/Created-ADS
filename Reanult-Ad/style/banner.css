@@ -1,0 +1,114 @@
+
+#screen01,#screen02,#screen03{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0;
+}
+
+.bg-image-cover{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+}
+
+.bg-image-contain{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: absolute;
+}
+
+#screen01-bg{
+    width: 100%;
+    height: 100%;
+	background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  position: absolute;
+}
+
+
+#screen01-msg1 {
+    width: 90%;
+    height: 100%;
+    left: 5%;
+    bottom: 26vh;
+    z-index: 9000;
+}
+#screen01-msg2 {
+    width: 89%;
+    height: 100%;
+    left: 5%;
+    bottom: 17vh;
+    z-index: 9000;
+}
+
+#logo {
+    width: 39%;
+    /* left: calc(-15vw + 10vh); */
+    right: 14px;
+    height: 22%;
+    top: -6vh;
+}
+
+#legal{
+    position: absolute;
+    width: 91vw;
+    height: 98%;
+    left: 4vw;
+}
+#cta {
+    position: absolute;
+    left: 4%;
+    width: 92%;
+    bottom: 2%;
+    cursor: pointer;
+    z-index: 9000;
+}
+#price {
+    position: absolute;
+    height: 38vw;;
+    left: 4%;
+    width: 92%;
+    bottom: 2%;
+    cursor: pointer;
+    z-index: 9000;
+}
+
+#dealer-info {
+    font-family: renault-r;
+    position: absolute;
+    color: white;
+    font-size: 7vw;
+    bottom: 7%;
+    left: 5%;
+    
+    /* font-style: unset; */
+}
+
+
+
+@media screen and (min-height: 560px) {
+
+}
+
+@media screen and (min-height: 812px) {
+
+}
+
+@media screen and (min-height: 480px) {
+
+
+}

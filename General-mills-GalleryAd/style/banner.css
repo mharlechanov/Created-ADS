@@ -1,0 +1,263 @@
+html, body {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+    background-color: white;
+}
+
+#ad-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+
+@viewport {
+    user-zoom: fixed;
+}
+
+#landscape_fallback {
+
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    z-index: 20000;
+}
+
+.fallback_content {
+    position: relative;
+    width: 80%;
+    height: 230px;
+    margin: 0 auto;
+    top: 50%;
+    margin-top: -115px;
+    font-size: 1.1em;
+}
+
+
+#scroller-informer {
+    position: absolute;
+    height: 0.4vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: #c31632;
+
+}
+
+#scroller-indicator {
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    display: block;
+}
+
+
+#scrolling-content {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+#scrolling-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.left-arrow,
+.right-arrow {
+    position: absolute;
+    height: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.left-arrow {
+    left: 1vw;
+
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1) translateY(-50%);
+    -ms-filter: fliph; /*IE*/
+    filter: fliph; /*IE*/
+}
+
+#address{
+    position:absolute;
+    bottom:10%;
+    color:white;
+    font-family: OurFont;
+    font-size: 8.5px;
+    text-align: center;
+    display:inline-block;
+    width: 80%;
+    left:50%;
+    transform: translateX(-50%);
+	pointer-events:none;
+}
+
+#logo-bottom{
+    position:absolute;
+    bottom:10%;
+    right:3%;
+    display:inline-block;
+    width: 7%;
+    transform: translateY(2%);
+	pointer-events:none;
+}
+
+
+.right-arrow {
+    right: 1vw;
+}
+
+
+.item-product{
+    position: absolute;
+    width: 100%;
+    height: 130%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    bottom:-21%;
+}
+
+.price {
+    position: absolute;
+    display: inline-block;
+    bottom: 65%;
+    width: 86px;
+    height: auto;
+    transform: translateY(50%);
+    pointer-events: none;
+}
+
+.price img{
+    width:100%;
+    pointer-events: none;
+}
+.textImg {
+    position: absolute;
+    display: inline-block;
+    bottom: 16%;
+    width: 52%;
+    height: auto;
+    transform: translateY(50%);
+    pointer-events: none;
+    right: 3%;
+}
+
+.textImg img{
+    width:100%;
+    pointer-events: none;
+}
+.prodImg {
+    position: absolute;
+    display: inline-block;
+    bottom: 49%;
+    width: 85%;
+    height: auto;
+    transform: translateY(50%);
+    pointer-events: none;
+    right: 6%;
+}
+
+.prodImg img{
+    width:100%;
+    pointer-events: none;
+}
+
+.products-scrolling{
+    position: absolute;
+    width: 100%;
+    height:100%;
+}
+
+
+#static-container{
+    width: 100%;
+    height: 100%;
+}
+
+:root{
+    --cta-border:1vw;
+}
+#CTA {
+    position: absolute;
+    bottom: 3vh;
+    left: 10vw;
+    width: 82vw;
+}
+
+#CTA-image{
+    width:100%;
+}
+
+#headline{
+    
+        position: absolute;
+        right: 16vw;
+        top: 6vh;
+        width: 68vw;
+        pointer-events: none;
+    /*right:var(--cta-border);*/
+ 
+
+}
+#text {
+    position: absolute;
+    right: -0.5vw;
+    top: 35vw;
+    color: white;
+    /* width: 56vw; */
+    font-family: OurFont;
+    font-size: 3vw;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 100;
+    width: 100%;
+}
+#logo {
+    right: 35vw;
+    bottom: 6vh;
+    width: 29vw;
+    position: absolute;
+}
+
+@font-face{
+    font-family: 'OurFont';src:url('../fonts/Brown-Bold.woff2') format("woff2")
+}
+
+#desclimer{
+    width: 90%;
+    color: white;
+    position: absolute;
+    bottom: calc(15vw + var(--cta-border));
+    text-align: center;
+    font-family: 'UniverseBold';
+}
+
+@media only screen and (max-width: 320px) and (max-height:480px) {
+    .price {
+      width:23%;
+      bottom:64%;
+      right:9vw !important;
+    }
+  }

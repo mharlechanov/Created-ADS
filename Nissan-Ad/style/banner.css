@@ -1,0 +1,172 @@
+
+#screen01,#screen02,#screen03{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0;
+}
+
+.bg-image-cover{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+}
+
+.bg-image-contain{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: absolute;
+}
+
+#screen01-bg{
+    width: 100%;
+    height: 100%;
+	background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  position: absolute;
+}
+
+#screen01-msg5{
+    width: 81%;
+    height: 70%;
+    left: 8%;
+    z-index: 9000;
+}
+
+#screen01-msg1{
+    width: 62%;
+    height: 24%;
+    left: 35%;
+    /* bottom: 80%; */
+    z-index: 9000;
+}
+#screen01-msg2 {
+    width: 61%;
+    height: 6%;
+    left: 35%;
+    /* top: -51%; */
+    z-index: 9000;
+}
+#disclaimer {
+    position: absolute;
+    left: 3vw;
+    bottom: 0;
+    height: 8%;
+    width: 92%;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+#screen01-msg4 {
+    width: 23%;
+    height: 12%;
+    right: 3%;
+    bottom: calc(12vw + 3vh);
+    z-index: 9000;
+}
+
+#screen03-title {
+    font-family: nissan-r;
+    position: absolute;
+    color: black;
+    font-size: 3vw;
+    bottom: 0%;
+    left: 3%;
+    width: 100%;
+}
+#screen03-bg{
+    width: 100%;
+    height: 100%;
+}
+
+#popup{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    position: absolute;
+    top:0;
+    left: 0;
+  z-index: 9001;
+}
+
+#popup-txt{
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    bottom: 2vw;
+	  z-index: 9001;
+}
+#logo{
+    width: 25%;
+    left: calc(-15vw + 10vh);
+    height: 18%;
+	
+	
+}
+
+
+#cta{
+    position: absolute;
+    left: 23%;
+    width: 54%;
+    bottom: 24%;
+    cursor: pointer;
+    z-index: 9000;
+    
+}
+#close-txt{
+    position: absolute;
+    width: 15%;
+    left: 44%;
+    bottom: 100vw;
+}
+#dealer-info{
+   font-family: nissan-b;
+    position: absolute;
+    color: black;
+    font-size: 4.4vw;
+    bottom: 9%;
+    left: 4%;
+}
+
+#dealer-sale{
+    font-family: hunday-r;
+    color: white;
+    font-size:9vw;
+    top:16%;
+	
+}
+
+@media screen and (min-height: 560px) {
+  div#logo {
+   height: 17%;
+  }
+}
+
+@media screen and (min-height: 812px) {
+  div#logo {
+      left: calc(-18vw + 10vh);
+	   height: 14%;
+  }
+}
+
+@media screen and (min-height: 480px) {
+  div#logo {
+         left: 3%;
+  }
+  img#cta{
+	  bottom:26%;
+  }
+}

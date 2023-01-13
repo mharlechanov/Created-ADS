@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <title>AUDI DAT-Hinweis</title>
+    <script src="js/orientationController.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="style/basic.css">
+    <script src="js/bodyScrollLock.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <link rel="stylesheet" href="style/banner.css">
+    <script src="js/SwipeController.js"></script>
+    <script>
+        var clickURL = "";
+        function clickOut(url) {
+            window.open(url)
+        }
+        function licenseClick(){
+            clickOut("http://www.dat.de");
+        }
+    </script>
+</head>
+<body onload="initBanner()">
+
+<div id="ad-container" style="display: none;">
+    <div id="preload" style="display: none;">
+        <img src="img/1_bild_top.jpg">
+        <img src="img/2_bild_top.jpg">
+        <img src="img/3_bild_top.jpg">
+        <img src="img/1_bild_btm.jpg">
+        <img src="img/2_bild_btm.jpg">
+        <img src="img/3_bild_btm.jpg">
+        <img src="img/4_endmotiv.jpg">
+
+    </div>
+    <div id="bg" style="background-image: url(img/4_endmotiv.jpg)"></div>
+    <div id = "gallery" >
+        <div id="top-elements"  class="top-section">
+            <div  class="top-element" style="background-image: url(img/1_bild_top.jpg)"></div>
+            <div  class="top-element" style="background-image: url(img/2_bild_top.jpg); left:-100%"></div>
+            <div  class="top-element" style="background-image: url(img/3_bild_top.jpg); left:-200%"></div>
+            <div class="top-element" style=" left:-300%"></div>
+        </div>
+        <div id="bottom-elements" class="bottom-section">
+            <div  class="top-element" style="background-image: url(img/1_bild_btm.jpg)"></div>
+            <div  class="top-element" style="background-image: url(img/2_bild_btm.jpg); left:100%"></div>
+            <div  class="top-element" style="background-image: url(img/3_bild_btm.jpg); left:200%"></div>
+            <div class="top-element" style=" left:300%"></div>
+        </div>
+        <div id="top-texts"  class="top-section">
+            <div  class="txt-elemet" style="background-image: url(img/headline_top.svg)"></div>
+            <div  class="txt-elemet" style="background-image: url(img/headline_top.svg); left:100%"></div>
+            <div  class="txt-elemet" style="background-image: url(img/headline_top.svg); left:200%"></div>
+            <div class="txt-elemet" style=" left:300%"></div>
+        </div>
+
+        <div id="bottom-texts"  class="bottom-section">
+            <div  class="bottom-txt-elemet" style="background-image: url(img/1_headline_btm.svg)"></div>
+            <div  class="bottom-txt-elemet" style="background-image: url(img/2_headline_btm.svg); left:-100%"></div>
+            <div  class="bottom-txt-elemet" style="background-image: url(img/3_headline_btm.svg); left:-200%"></div>
+            <div class="bottom-txt-elemet-cta" style="background-image: url(img/4_headline_btm.svg); left:-300%" onclick="clickOut(clickURL)"></div>
+        </div>
+    </div>
+    <div id = "pager">
+        <div class="bullet" style="background-image: url(img/slide_bar_stroke.svg); left:0;" id="b1">
+            <img src="img/slide_bar_solid.svg">
+        </div>
+        <div class="bullet" style="background-image: url(img/slide_bar_stroke.svg); left:33%;" id="b2">
+            <img src="img/slide_bar_solid.svg">
+        </div>
+        <div class="bullet" style="background-image: url(img/slide_bar_stroke.svg); left:66%" id="b3">
+            <img src="img/slide_bar_solid.svg">
+        </div>
+        <div class="bullet" style="background-image: url(img/slide_bar_stroke.svg); left:100%" id="b4">
+            <img src="img/slide_bar_solid.svg">
+        </div>
+    </div>
+    <img src="img/logo_audi.svg" id = "logo">
+    <div id="disclamer" style="background-image: url(img/license.svg)" onclick="showPopUp()"></div>
+    <div id="popup" hidden>
+        <img src="img/hinweis_popup.png" id="popup-txt">
+        <img src="img/hinweis_popup_close_btn.png" id="close-txt" onclick="closePopUp()">
+        <div id="disc-link" onclick="licenseClick()"></div>
+    </div>
+
+</div>
+
+<div id="landscape_fallback" style="display:none">
+    <div class="fallback_content">
+        <img src="img/no-landscape.jpg">
+    </div>
+</div>
+
+
+
+</body>
+</html>

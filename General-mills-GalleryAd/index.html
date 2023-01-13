@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>General Mills</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+    <script>
+        var clickURL1 = "";
+        var clickURL2 = "";
+        var clickURL = "";
+
+        var galleryChangedTrackURL = "";
+        var trackGoogleMaps = "";
+
+        var urlPath = "https://permodo.previews.cloud/gallery_ad/General_Mils/";
+
+        function clickOut(url) {
+            window.open(url, "_blank");
+        };
+        var userZip = "70174";
+
+        var shopURL = "";
+        function onCTAClicked() {
+            if (shopURL) {
+                addTrackingScript(trackGoogleMaps);
+                clickOut(shopURL);
+            } else {
+                clickOut(clickURL);
+            }
+        };
+
+        function onProductClicked(e) {
+            clickOut(e.object.clickUrl);
+        };
+
+        function onClickTillLoading() {
+            clickOut(clickURL);
+        };
+
+        var galleryArray = [
+            { imgUrl: "img/1.png", priceImg: "img/empty.png", right: "17%", clickUrl: clickURL, trackingURL: galleryChangedTrackURL },
+            { imgUrl: "img/2.png", priceImg: "img/empty.png", right: "11%", clickUrl: clickURL1, trackingURL: galleryChangedTrackURL },
+            { imgUrl: "img/3.png", priceImg: "img/new.png", right: "4vw", clickUrl: clickURL2, trackingURL: galleryChangedTrackURL }
+        ];
+
+        function addTrackingScript(trackURL) {
+            var img = new Image();
+            img.src = trackURL;
+        };
+
+        var prevGalleryItem = -1
+        function trackGalleryItem(e) {
+            if (e.index !== prevGalleryItem) {
+                prevGalleryItem = e.index;
+                addTrackingScript(e.object.trackingURL);
+            }
+        };
+
+
+        function killLoader() {
+            document.querySelector("body").onclick = null;
+            document.getElementById("preloader").style.display = "none";
+            generalPreloader.stop();
+
+            document.querySelector("#static-container").style.opacity = 1;
+            document.querySelector("#scroller-informer").style.opacity = 0;
+
+
+        };
+
+
+        function onBodyLoad() {
+            initBanner();
+        };
+    </script>
+    <link rel="stylesheet" href="style/banner.css">
+
+
+</head>
+
+<body onload="onBodyLoad();" onclick="onClickTillLoading()">
+
+    <div id="preloader"
+        style="position:absolute; width:10%; height:10%; left: 50%; top: 50%; transform: translate(-50%,-50%)"> </div>
+
+    <script src="js/lottie.min.js"></script>
+    <script>
+        var generalPreloader = lottie.loadAnimation({
+            container: document.getElementById("preloader"),
+            renderer: "svg",
+            loop: true,
+            autoplay: true,
+            path: urlPath + "img/preloader.json"
+        });
+
+    </script>
+    <script src="js/productGallery.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+
+    <div id="ad-container" style="display: none;">
+
+
+        <div id="scrolling-container" style="opacity:0">
+
+            <div class="products-scrolling">
+                <!--Gallery items will be placed here--->
+            </div>
+            <img src="img/arrow.png" class="left-arrow">
+            <img src="img/arrow.png" class="right-arrow">
+
+        </div>
+
+
+
+        <!-- second banner part --->
+        <div id="static-container" style="opacity:0">
+            <!--img id="CTA" src="img/cta-button.png" onclick="onCTAClicked()" style="opacity: 0;"-->
+            <img id="headline" src="img/headline.png">
+            <div id="text" onclick="onCTAClicked()">
+                HIER KLICKEN, UM ANBIETER </br>
+                IN DEINER NÄHE ZU FINDEN
+            </div>
+            <!-- <p id="desclimer"></p>-->
+        </div>
+
+        <!-- top scrolling indicator -->
+        <div id="scroller-informer" style="opacity:0">
+            <div id="scroller-indicator"></div>
+        </div>
+    </div>
+    <div id="landscape_fallback" style="display: none;">
+        <div class="fallback_content">
+            <img src="img/no-landscape.jpg" style="width: 80%;">
+        </div>
+    </div>
+
+    <script src="js/FallbackController.js"></script>
+    <script src="js/bodyScrollLock.js"></script>
+    <script id="galleryItem" type="text/html">
+        <div id = "{{id}}" class = "item-product" style="background-image: url({{img}})">
+            <div class="price" style="right:{{right}}">
+                <img src="{{priceImg}}" />
+            </div>
+        </div>
+    </script>
+    <script src="js/index.js"></script>
+
+
+
+</body>
+
+</html>

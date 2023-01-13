@@ -1,0 +1,2036 @@
+[
+  {
+    "name": "Real",
+    "street": "Friedrichstraße 152",
+    "zip": 40217,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Edeka Tschöpe",
+    "street": "Kölner Straße 250",
+    "zip": 40227,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Emmas Enkel",
+    "street": "Schlüterstraße 3B",
+    "zip": 40235,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Kaufland",
+    "street": "Professor-Neyses-Platz 5",
+    "zip": 40476,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Real",
+    "street": "Schießstraße 31",
+    "zip": 40549,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "E-center Celik",
+    "street": "Nettelbeckstraße 8",
+    "zip": 40477,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Rewe",
+    "street": "Theo-Champion-Straße 1",
+    "zip": 40549,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "E-center Zurheide",
+    "street": "Nürnberger Straße 40-42",
+    "zip": 40599,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Rewe Runkel",
+    "street": "Blanckertzstraße 2",
+    "zip": 40629,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Perfetto",
+    "street": "Schadowstraße 93",
+    "zip": 40212,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Rewe",
+    "street": "Bilker Allee 57",
+    "zip": 40219,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Edeka Paschmann",
+    "street": "Aachener Straße 166",
+    "zip": 40223,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "E-center Paschmann",
+    "street": "Suitbertusstraße 127-129",
+    "zip": 40223,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Rewe Maicher",
+    "street": "Himmelgeister Straße 81",
+    "zip": 40225,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Rewe City",
+    "street": "Gumbertstr. 125",
+    "zip": 40229,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Rewe City Krämer",
+    "street": "Rethelstraße 135-137",
+    "zip": 40237,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Rewe",
+    "street": "Rethelstraße 154-156",
+    "zip": 40237,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Rewe",
+    "street": "Ulmenstraße 299",
+    "zip": 40468,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Rewe",
+    "street": "Westfalenstraße 24-26",
+    "zip": 40472,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Edeka Schnellkauf",
+    "street": "Kaiserswerther Straße 270",
+    "zip": 40474,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Edeka",
+    "street": "Niederrheinstraße 84",
+    "zip": 40474,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Rewe",
+    "street": "Münsterstr. 100",
+    "zip": 40476,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "E-center Celik",
+    "street": "Harffstraße 53",
+    "zip": 40591,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Rewe",
+    "street": "Kölner Landstraße 203-213",
+    "zip": 40591,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Rewe City",
+    "street": "Altenbrückstraße 15",
+    "zip": 40599,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Rewe Sprenger",
+    "street": "Königsallee 60",
+    "zip": 40212,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Edeka Buller",
+    "street": "Matthiaskirchweg 6",
+    "zip": 40472,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Edeka Shariat",
+    "street": "Golzheimer Str. 129",
+    "zip": 40476,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Edeka Schnellkauf",
+    "street": "Nordstr. 90",
+    "zip": 40477,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Rewe",
+    "street": "Tußmannstr. 41",
+    "zip": 40477,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Wa-Yo Supermarkt Hamanaga",
+    "street": "Lütticher Str. 17",
+    "zip": 40547,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Rewe",
+    "street": "Hauptstr. 6-8",
+    "zip": 40597,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Edeka Schnellkauf",
+    "street": "Benderstr. 52",
+    "zip": 40625,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "REWE Fakhouri",
+    "street": "Zur alten Kaserne 2",
+    "zip": 40470,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Zurheide Feine Kost KG",
+    "street": "Berliner Allee 52",
+    "zip": 40212,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "REWE",
+    "street": "Westfalenstraße 64",
+    "zip": 40472,
+    "town": "Düsseldorf"
+  },
+  {
+    "name": "Edeka Scheck-In Center",
+    "street": "Ferdinand-Happ-Straße 59",
+    "zip": 60314,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Kaufland",
+    "street": "Wächtersbacher Straße 75",
+    "zip": 60386,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Ginnheimer Landstr. 174",
+    "zip": 60431,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Europa-Allee 118",
+    "zip": 60486,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Hausener Brückweg 5",
+    "zip": 60488,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Dreieichstraße 59",
+    "zip": 60594,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Hit",
+    "street": "Mörfelder Landstraße 129",
+    "zip": 60598,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Kurmarkstraße 3",
+    "zip": 60437,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe Center",
+    "street": "Eugen-Hartmann-Straße 7",
+    "zip": 60488,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Königsteiner Straße 75-77",
+    "zip": 65929,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe Center",
+    "street": "Ernst-Wiss-Straße 9",
+    "zip": 65933,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Karstadt Lebensmittel",
+    "street": "Zeil 116-126",
+    "zip": 60313,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Perfetto",
+    "street": "Zeil 90",
+    "zip": 60313,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Oeder Weg 17",
+    "zip": 60318,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Eschersheimer Landstr. 221",
+    "zip": 60320,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Speicherstraße 44",
+    "zip": 60327,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Victor-Slotosch-Str. 11",
+    "zip": 60388,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Am Dachsberg 204",
+    "zip": 60435,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Karl-Von-Drais-Straße 13",
+    "zip": 60435,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe City",
+    "street": "Nidacorso 1",
+    "zip": 60439,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Gräfstraße 94",
+    "zip": 60487,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "REWE Moussa Harrou oHG",
+    "street": "Goldsteinstr. 134",
+    "zip": 60528,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Martinskirchstraße 70",
+    "zip": 60529,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "REWE Szabolcs Magyar oHG",
+    "street": "Werner-Bockelmann-Str. 7",
+    "zip": 65934,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Westerbachstr. 160",
+    "zip": 65936,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Homburger Landstr. 340-352",
+    "zip": 60433,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Zeil 106",
+    "zip": 60313,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Grüneburgweg 12",
+    "zip": 60322,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Heidestr. 137",
+    "zip": 60385,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Ginnheimer Hohl 9-13",
+    "zip": 60431,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Altenhöferallee 2",
+    "zip": 60438,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Leipziger Str. 67",
+    "zip": 60487,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Textorstr. 31",
+    "zip": 60594,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Walther-von-Cronberg-Platz 2",
+    "zip": 60594,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Buchrainstr. 2-4",
+    "zip": 60599,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Königsteiner Str. 9-13",
+    "zip": 65929,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "REWE",
+    "street": "Louis-Appia-Passage 7",
+    "zip": 60314,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "REWE Center",
+    "street": "Mainzer Landstraße 330",
+    "zip": 60326,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "REWE",
+    "street": "Homburger Landstr. 734",
+    "zip": 60437,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "INAKTIV_REWE",
+    "street": "Breitlacherstr. 1",
+    "zip": 60489,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "REWE",
+    "street": "Stresemannallee 78",
+    "zip": 60598,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Scheck-In-Center",
+    "street": "Hainer Weg 56-80",
+    "zip": 60599,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Eckenheimer Landstr. 183",
+    "zip": 60320,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Frankenallee 157",
+    "zip": 60326,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe City",
+    "street": "Europa-Allee 6",
+    "zip": 60327,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Berger Straße 161",
+    "zip": 60385,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Dahlmannstraße 31",
+    "zip": 60385,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe City",
+    "street": "Ludwig-Landmann-Str. 81",
+    "zip": 60488,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Am Försterpfad 7",
+    "zip": 60529,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe City Sahin",
+    "street": "Oskar-Sommer-Straße 15-17",
+    "zip": 60596,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Darmstädter Landstr. 106",
+    "zip": 60598,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe City",
+    "street": "Alte Falterstr. 3-7",
+    "zip": 65933,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "EDEKA Scheck-In Center",
+    "street": "Hahnstr. 37-41",
+    "zip": 60528,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Rewe",
+    "street": "Weißkirchener Weg 4",
+    "zip": 60439,
+    "town": "Frankfurt am Main"
+  },
+  {
+    "name": "Edeka Hebig",
+    "street": "Heidhorst 4",
+    "zip": 21031,
+    "town": "Hamburg"
+  },
+  {
+    "name": "E-neukauf Nöhring",
+    "street": "Fleetplatz 2-4",
+    "zip": 21035,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Ziegler",
+    "street": "Am Veringhof 8",
+    "zip": 21107,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Timmer",
+    "street": "Alter Teichweg 57",
+    "zip": 22049,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Clausen",
+    "street": "Wiesendamm 32",
+    "zip": 22305,
+    "town": "Hamburg"
+  },
+  {
+    "name": "EDEKA Jensen",
+    "street": "Elbgaustraße 118A",
+    "zip": 22547,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Klein",
+    "street": "Julius-Brecht-Straße 5A",
+    "zip": 22609,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Anders",
+    "street": "Max-Brauer-Allee 163",
+    "zip": 22765,
+    "town": "Hamburg"
+  },
+  {
+    "name": "E-aktiv Markt Holst",
+    "street": "Paul-Roosen-Straße 8",
+    "zip": 22767,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Stoltze",
+    "street": "Fahrenkrön 133",
+    "zip": 22179,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Real",
+    "street": "Beim Strohhause 8",
+    "zip": 20097,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Niemerszein",
+    "street": "Lange Reihe 110",
+    "zip": 20099,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Holst",
+    "street": "Eimsbütteler Chaussee 17",
+    "zip": 20259,
+    "town": "Hamburg"
+  },
+  {
+    "name": "E-center Holst & Meyer",
+    "street": "Neuer Kamp 31",
+    "zip": 20359,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Böcker",
+    "street": "Überseeboulevard 4-10",
+    "zip": 20457,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Heine",
+    "street": "Bergedorfer Str. 148",
+    "zip": 21029,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Kaufland",
+    "street": "Bergedorfer Straße 106",
+    "zip": 21029,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe Hegedüs",
+    "street": "Am Beckerkamp 31",
+    "zip": 21031,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe Hegedüs",
+    "street": "Binnenfeldredder 32A",
+    "zip": 21031,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Vierländer Markt Clausen",
+    "street": "Neuengammer Hausdeich 215",
+    "zip": 21039,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Marktkauf",
+    "street": "Seeveplatz 1",
+    "zip": 21073,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Winsener Str. 36",
+    "zip": 21077,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Hannoversche Straße 86",
+    "zip": 21079,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Marktkauf",
+    "street": "Wilhelm-Strauß-Weg 4",
+    "zip": 21109,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Steendieck 16",
+    "zip": 21129,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Hardauring 34",
+    "zip": 21147,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Kaufland",
+    "street": "Marktpassage 5",
+    "zip": 21149,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe Center",
+    "street": "Walddörfer Straße 146",
+    "zip": 22041,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe Center",
+    "street": "Tonndorfer Hauptstraße 71",
+    "zip": 22045,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Frischecenter Meyer",
+    "street": "Ölmühlenweg 4",
+    "zip": 22047,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Dehnhaide 57",
+    "zip": 22081,
+    "town": "Hamburg"
+  },
+  {
+    "name": "REWE",
+    "street": "Holsteinischer Kamp 53",
+    "zip": 22081,
+    "town": "Hamburg"
+  },
+  {
+    "name": "REWE",
+    "street": "Lorenzenweg 3",
+    "zip": 22111,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Rennbahnstraße 34A",
+    "zip": 22111,
+    "town": "Hamburg"
+  },
+  {
+    "name": "REWE Christoph Gosewisch oHG",
+    "street": "Schiffbeker Weg 230",
+    "zip": 22119,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Bargteheider Straße 83-87",
+    "zip": 22143,
+    "town": "Hamburg"
+  },
+  {
+    "name": "E-aktiv Markt Dalinger",
+    "street": "Sieker Landstraße 31",
+    "zip": 22143,
+    "town": "Hamburg"
+  },
+  {
+    "name": "E-aktiv Markt Stöver",
+    "street": "Traberweg 1",
+    "zip": 22159,
+    "town": "Hamburg"
+  },
+  {
+    "name": "E-aktiv Markt Ecks",
+    "street": "Alsterdorfer Markt 8",
+    "zip": 22297,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Alsterdorfer Straße 255",
+    "zip": 22297,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Niemerszein",
+    "street": "Mühlenkamp 45",
+    "zip": 22303,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Famila",
+    "street": "Eichenlohweg 17",
+    "zip": 22309,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Heegbarg 31",
+    "zip": 22391,
+    "town": "Hamburg"
+  },
+  {
+    "name": "REWE",
+    "street": "Wellingsbütteler Markt 1",
+    "zip": 22391,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Peper",
+    "street": "Harksheider Str. 41",
+    "zip": 22399,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Kaufland",
+    "street": "Krohnstieg 4",
+    "zip": 22415,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Borsteler Chaussee 17",
+    "zip": 22453,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Tibarg 32",
+    "zip": 22459,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Tibarg 41-43",
+    "zip": 22459,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Kieler Str. 579",
+    "zip": 22525,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Grelckstraße 34",
+    "zip": 22529,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Schrader",
+    "street": "Koppelstraße 47-49",
+    "zip": 22529,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Kaufland",
+    "street": "Eckhoffplatz 1",
+    "zip": 22547,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Real",
+    "street": "Grandkuhlenweg 11",
+    "zip": 22549,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Struve Schlemmermarkt",
+    "street": "Wedeler Landstraße 52",
+    "zip": 22559,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe Center",
+    "street": "Osdorfer Landstraße 131",
+    "zip": 22609,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Kaufland",
+    "street": "Stresemannstraße 300",
+    "zip": 22761,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Von-Sauer-Straße 11",
+    "zip": 22761,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe Center",
+    "street": "Max-Brauer-Allee 59",
+    "zip": 22765,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Bandelt",
+    "street": "Ottenser Hauptstr. 10",
+    "zip": 22765,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Hoheluftchaussee 23-25",
+    "zip": 20253,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Kirchenhang 4-8",
+    "zip": 21073,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Sky",
+    "street": "Gordonstraße 2",
+    "zip": 21079,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Rehrstieg 16-30",
+    "zip": 21147,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Schöneberger Straße 31",
+    "zip": 22045,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Nordschleswiger Straße 48-49",
+    "zip": 22049,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Cap Markt",
+    "street": "Weidestraße 122A",
+    "zip": 22083,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Timmer",
+    "street": "Conventstraße 8-10",
+    "zip": 22089,
+    "town": "Hamburg"
+  },
+  {
+    "name": "E-center Struve",
+    "street": "Schweriner Str. 8-12",
+    "zip": 22143,
+    "town": "Hamburg"
+  },
+  {
+    "name": "E-neukauf Bankert",
+    "street": "Boltenhagener Straße 3",
+    "zip": 22147,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Real",
+    "street": "Berner Heerweg 173-175",
+    "zip": 22159,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe Center Stanislawski & Laas",
+    "street": "Dorotheenstraße 116",
+    "zip": 22301,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Markant",
+    "street": "Barmbeker Straße 17-19",
+    "zip": 22303,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Struve Schlemmermarkt",
+    "street": "Hummelsbüttler Landstraße 9",
+    "zip": 22335,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Poppenbütteler Chaussee 43-45",
+    "zip": 22397,
+    "town": "Hamburg"
+  },
+  {
+    "name": "EDEKA Hollender",
+    "street": "Krohnstieg 41-43",
+    "zip": 22415,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Nordalbingerweg 23-31",
+    "zip": 22455,
+    "town": "Hamburg"
+  },
+  {
+    "name": "E-center Struve",
+    "street": "Osterfeldstraße 30-40",
+    "zip": 22529,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Sülldorfer Kirchenweg 2",
+    "zip": 22587,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Barner Straße 44-46",
+    "zip": 22765,
+    "town": "Hamburg"
+  },
+  {
+    "name": "E-aktiv Markt Heitmann",
+    "street": "Große Bergstraße 154",
+    "zip": 22767,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Heitmann",
+    "street": "Hoheluftchaussee 52-54",
+    "zip": 20253,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Gillert",
+    "street": "Marienthaler Straße 145",
+    "zip": 20535,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe Spangl",
+    "street": "Eiffestraße 664B",
+    "zip": 20537,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Marktkauf",
+    "street": "Alte Holstenstraße 30",
+    "zip": 21031,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Bleise",
+    "street": "Reinbeker Redder 283",
+    "zip": 21031,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Pelz",
+    "street": "Edith-Stein-Platz 4",
+    "zip": 21035,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Bobsien",
+    "street": "Köhlfleet-Hauptdeich 7",
+    "zip": 21129,
+    "town": "Hamburg"
+  },
+  {
+    "name": "E-center Gillert",
+    "street": "Wandsbeker Chaussee 248",
+    "zip": 22089,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Wölm",
+    "street": "Kandinskyallee 14-18",
+    "zip": 22115,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe Heilek",
+    "street": "Stapelfelder Straße 86",
+    "zip": 22143,
+    "town": "Hamburg"
+  },
+  {
+    "name": "E-center Struve",
+    "street": "Bramfelder Chaussee 84-86",
+    "zip": 22177,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Frischecenter Meyer",
+    "street": "Krähenweg 19",
+    "zip": 22459,
+    "town": "Hamburg"
+  },
+  {
+    "name": "E-center Struve",
+    "street": "Hörgensweg 5",
+    "zip": 22523,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Töpfert",
+    "street": "Stresemannallee 12-16",
+    "zip": 22529,
+    "town": "Hamburg"
+  },
+  {
+    "name": "E-center Struve",
+    "street": "Gasstr. 4",
+    "zip": 22761,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Lübecker Straße 107",
+    "zip": 22087,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Hermann-Balk-Str. 117",
+    "zip": 22147,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Jarrestraße 44",
+    "zip": 22303,
+    "town": "Hamburg"
+  },
+  {
+    "name": "INAKTIV_E-aktiv Markt Dalinger",
+    "street": "Eulenkrugstraße 55",
+    "zip": 22359,
+    "town": "Hamburg"
+  },
+  {
+    "name": "E-aktiv Markt Berger",
+    "street": "Saseler Markt 19-20",
+    "zip": 22393,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Waldweg 43",
+    "zip": 22393,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Wedeler Landstraße 16",
+    "zip": 22559,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Glissmannweg 4",
+    "zip": 22457,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Tamme",
+    "street": "Glockengießerwall 8-10",
+    "zip": 20095,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Anders",
+    "street": "Grindelallee 126",
+    "zip": 20146,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Niemerszein",
+    "street": "Hallerstr. 78",
+    "zip": 20146,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Niemerszein",
+    "street": "Milchstraße 1",
+    "zip": 20148,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Struve Schlemmermarkt",
+    "street": "Eppendorfer Baum 35",
+    "zip": 20249,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Struve Schlemmermarkt",
+    "street": "Eppendorfer Landstr. 41",
+    "zip": 20249,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Niemerszein",
+    "street": "Osterstr. 120",
+    "zip": 20255,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Niemerszein",
+    "street": "Osterstr. 86",
+    "zip": 20259,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Struve Schlemmermarkt",
+    "street": "Große Bleichen 30",
+    "zip": 20354,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe City",
+    "street": "Altonaer Str. 67",
+    "zip": 20357,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Struve Schlemmermarkt",
+    "street": "Großer Burstah 31",
+    "zip": 20457,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Halmschlag im CCB",
+    "street": "Kupferhof 4",
+    "zip": 21029,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Niemerszein",
+    "street": "Sand 27-33",
+    "zip": 21073,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Kröger",
+    "street": "Wandsbeker Marktstr. 38",
+    "zip": 22041,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Nolda",
+    "street": "Straßburger Str. 34",
+    "zip": 22049,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Hamburger Straße 19-47",
+    "zip": 22083,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rew City",
+    "street": "Hammer Steindamm 40-42",
+    "zip": 22089,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Rahlstedter Bahnhofstr. 23-25",
+    "zip": 22143,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Woytke",
+    "street": "Pezolddamm 154",
+    "zip": 22159,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Fabriciusstr. 1",
+    "zip": 22177,
+    "town": "Hamburg"
+  },
+  {
+    "name": "E-aktiv Markt Müller",
+    "street": "Fuhlsbüttler Str. 188",
+    "zip": 22307,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Fuhlsbüttler Straße 387",
+    "zip": 22309,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Struve Schlemmermarkt",
+    "street": "Heegbarg 25",
+    "zip": 22391,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Bannat",
+    "street": "Harksheider Str. 2",
+    "zip": 22399,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Feinkost Kröger",
+    "street": "Blankeneser Bahnhofstr. 17",
+    "zip": 22587,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe Glasmeyer",
+    "street": "Kalckreuthweg 90",
+    "zip": 22607,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe Glasmeyer",
+    "street": "Waitzstr. 1",
+    "zip": 22607,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe",
+    "street": "Kieler Str. 101",
+    "zip": 22769,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Wiedner",
+    "street": "Stresemannstr. 161",
+    "zip": 22769,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Clausen",
+    "street": "Alter Güterbahnhof 2",
+    "zip": 22303,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Kraus",
+    "street": "Eppendorfer Landstr. 108-110",
+    "zip": 20249,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Boldt",
+    "street": "Kaiser-Friedrich-Ufer 30",
+    "zip": 20253,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe Ivica Pobric oHG",
+    "street": "Erdkampsweg 31",
+    "zip": 22335,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe Glasmeyer",
+    "street": "Jürgen-Töpfer-Straße 18A-F",
+    "zip": 22763,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Rewe Flentje",
+    "street": "Langenhorner Chaussee 666",
+    "zip": 22419,
+    "town": "Hamburg"
+  },
+  {
+    "name": "REWE",
+    "street": "Wandsbeker Marktstraße 1",
+    "zip": 22041,
+    "town": "Hamburg"
+  },
+  {
+    "name": "REWE Beushausen",
+    "street": "Bramfelder Chaussee 234",
+    "zip": 22177,
+    "town": "Hamburg"
+  },
+  {
+    "name": "REWE",
+    "street": "Kroonhorst 1-3",
+    "zip": 22549,
+    "town": "Hamburg"
+  },
+  {
+    "name": "EDEKA Bannat",
+    "street": "Saseler Damm 14-16",
+    "zip": 22395,
+    "town": "Hamburg"
+  },
+  {
+    "name": "REWE Surdanovic",
+    "street": "Friedensallee 9",
+    "zip": 22765,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Kaufland",
+    "street": "Bramfelder Dorfplatz 18",
+    "zip": 22179,
+    "town": "Hamburg"
+  },
+  {
+    "name": "EDEKA Warncke's Frischecenter",
+    "street": "Süderelbering 1",
+    "zip": 21149,
+    "town": "Hamburg"
+  },
+  {
+    "name": "REWE City Eichemeyers Frischemärkte GmbH",
+    "street": "Elbchaussee 576-578",
+    "zip": 22587,
+    "town": "Hamburg"
+  },
+  {
+    "name": "EDEKA Zieglers Frischecenter KG",
+    "street": "Veritaskai 8",
+    "zip": 21079,
+    "town": "Hamburg"
+  },
+  {
+    "name": "EDEKA Hirche",
+    "street": "Harkortstraße 81C",
+    "zip": 22765,
+    "town": "Hamburg"
+  },
+  {
+    "name": "REWE Riebel",
+    "street": "Im Fischbeker Heidbrook 2B",
+    "zip": 21149,
+    "town": "Hamburg"
+  },
+  {
+    "name": "REWE Nowokreschenow",
+    "street": "Krüsistr. 7",
+    "zip": 22305,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka",
+    "street": "Nagelsweg 20D",
+    "zip": 20097,
+    "town": "Hamburg"
+  },
+  {
+    "name": "EDEKA Tamme",
+    "street": "Spitaler Straße 10-12",
+    "zip": 20095,
+    "town": "Hamburg"
+  },
+  {
+    "name": "Edeka Romano",
+    "street": "Berrenrather Str. 339",
+    "zip": 50937,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe Skowronnek",
+    "street": "Friedrich-Karl-Straße 245",
+    "zip": 50735,
+    "town": "Köln"
+  },
+  {
+    "name": "Selgros Cash & Carry",
+    "street": "Von-Huenefeld-Str. 100",
+    "zip": 50829,
+    "town": "Köln"
+  },
+  {
+    "name": "E-center Engels",
+    "street": "Horbeller Straße 2-4",
+    "zip": 50858,
+    "town": "Köln"
+  },
+  {
+    "name": "E-center Engels",
+    "street": "Unter Linden 286",
+    "zip": 50859,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe",
+    "street": "Höninger Weg 185",
+    "zip": 50969,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe Center",
+    "street": "Hauptstraße 128",
+    "zip": 50996,
+    "town": "Köln"
+  },
+  {
+    "name": "Real",
+    "street": "Gremberger Straße 200",
+    "zip": 51105,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe",
+    "street": "Friedrichstr. 38",
+    "zip": 51143,
+    "town": "Köln"
+  },
+  {
+    "name": "Edeka Hein",
+    "street": "St.-Sebastianus-Str. 14",
+    "zip": 51147,
+    "town": "Köln"
+  },
+  {
+    "name": "Edeka Hein",
+    "street": "Gilgaustr. 29",
+    "zip": 51149,
+    "town": "Köln"
+  },
+  {
+    "name": "Real",
+    "street": "Rudolf-Diesel-Straße 32",
+    "zip": 51149,
+    "town": "Köln"
+  },
+  {
+    "name": "Kaufland",
+    "street": "Boltensternstraße 104-112",
+    "zip": 50735,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe Knakowski",
+    "street": "Florenzer Straße 24-28",
+    "zip": 50765,
+    "town": "Köln"
+  },
+  {
+    "name": "Globus",
+    "street": "Max-Planck-Straße 9",
+    "zip": 50858,
+    "town": "Köln"
+  },
+  {
+    "name": "Hit",
+    "street": "Scheidtweilerstraße 83",
+    "zip": 50933,
+    "town": "Köln"
+  },
+  {
+    "name": "Real",
+    "street": "Weißhausstraße 20-30",
+    "zip": 50939,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe Schulz",
+    "street": "Weißer Straße 124-126",
+    "zip": 50999,
+    "town": "Köln"
+  },
+  {
+    "name": "Hit",
+    "street": "Marienburger Straße 1",
+    "zip": 51145,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe Ridders",
+    "street": "Eigelstein 80-88",
+    "zip": 50668,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe Buhrandt",
+    "street": "Venloer Straße 41",
+    "zip": 50672,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe City",
+    "street": "Hohenstaufenring 29-37",
+    "zip": 50674,
+    "town": "Köln"
+  },
+  {
+    "name": "REWE Murat Aslim oHG",
+    "street": "Waidmarkt 1-3",
+    "zip": 50676,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe Center",
+    "street": "Neusser Straße 665",
+    "zip": 50737,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe Rahmati",
+    "street": "Subbelrather Straße 168-170",
+    "zip": 50823,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe",
+    "street": "Widdersdorfer Straße 219",
+    "zip": 50825,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe Center",
+    "street": "Venloer Straße 601-603",
+    "zip": 50827,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe City Rahmati",
+    "street": "Dürener Straße 132",
+    "zip": 50931,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe Maziejewski",
+    "street": "Aachenerstraße 382",
+    "zip": 50933,
+    "town": "Köln"
+  },
+  {
+    "name": "Handelshof",
+    "street": "Widdersdorfer Str. 427-431",
+    "zip": 50933,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe Richrath",
+    "street": "Rhöndorfer Straße 19",
+    "zip": 50939,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe",
+    "street": "Bonner Straße 211",
+    "zip": 50968,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe Rohe",
+    "street": "Steyler Str. 4",
+    "zip": 51067,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe",
+    "street": "Bergisch Gladbacher Str. 1007",
+    "zip": 51069,
+    "town": "Köln"
+  },
+  {
+    "name": "Handelshof",
+    "street": "Rolshover Straße 229",
+    "zip": 51105,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe Gritzner",
+    "street": "Rösrather Str. 467",
+    "zip": 51107,
+    "town": "Köln"
+  },
+  {
+    "name": "E-aktiv Markt Hein",
+    "street": "Houdainer Str. 2",
+    "zip": 51143,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe Richrath",
+    "street": "Schwertnergasse 1",
+    "zip": 50667,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe City",
+    "street": "Hohenzollernring 20",
+    "zip": 50672,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe",
+    "street": "Salierring 47-53",
+    "zip": 50677,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe",
+    "street": "Venloer Str. 287",
+    "zip": 50823,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe Bertram",
+    "street": "Aachener Str. 1253",
+    "zip": 50858,
+    "town": "Köln"
+  },
+  {
+    "name": "E-aktiv Markt Daub",
+    "street": "Jungbluthgasse 9",
+    "zip": 50858,
+    "town": "Köln"
+  },
+  {
+    "name": "Frischmarkt Zickuhr",
+    "street": "Dürener Str. 199",
+    "zip": 50931,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe City",
+    "street": "Dürener Str. 246",
+    "zip": 50931,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe City",
+    "street": "Berrenrather Str. 217",
+    "zip": 50937,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe Maziejewski",
+    "street": "Im Weidenbruch 136",
+    "zip": 51061,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe",
+    "street": "Berliner Str. 281",
+    "zip": 51061,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe Rohe",
+    "street": "Bergisch Gladbacher Str. 667",
+    "zip": 51067,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe Hermann",
+    "street": "Hatzfeldstr. 14",
+    "zip": 51069,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe Schäfer",
+    "street": "Hauptstr. 150",
+    "zip": 51143,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe Utsch",
+    "street": "Humboldtstr. 131",
+    "zip": 51145,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe",
+    "street": "Heidestr. 159-161",
+    "zip": 51147,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe Schäfer",
+    "street": "Wilhelm-Ruppert-Str. 27",
+    "zip": 51147,
+    "town": "Köln"
+  },
+  {
+    "name": "REWE Ziegler",
+    "street": "Neusser Straße 100",
+    "zip": 50670,
+    "town": "Köln"
+  },
+  {
+    "name": "REWE Ziegler",
+    "street": "Nohlstraße 24-26",
+    "zip": 50733,
+    "town": "Köln"
+  },
+  {
+    "name": "Hit",
+    "street": "Reiterstaffelplatz 1",
+    "zip": 50968,
+    "town": "Köln"
+  },
+  {
+    "name": "REWE",
+    "street": "Kalker Hauptstraße 55",
+    "zip": 51103,
+    "town": "Köln"
+  },
+  {
+    "name": "REWE Flammuth",
+    "street": "Kölner Str. 26",
+    "zip": 50859,
+    "town": "Köln"
+  },
+  {
+    "name": "EDEKA Engels",
+    "street": "Longericher Str. 534",
+    "zip": 50739,
+    "town": "Köln"
+  },
+  {
+    "name": "Rewe City",
+    "street": "Goltsteinstraße 91",
+    "zip": 50968,
+    "town": "Köln"
+  },
+  {
+    "name": "Edeka Weckert",
+    "street": "Am Kochenhof 10",
+    "zip": 70192,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "Edeka Fleck",
+    "street": "Europaplatz 20",
+    "zip": 70565,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "Rewe City",
+    "street": "Eberhardstraße 28",
+    "zip": 70173,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "Rewe",
+    "street": "Breitscheidstr. 10",
+    "zip": 70174,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "E-neukauf",
+    "street": "Rotebühlstraße 125",
+    "zip": 70178,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "Edeka",
+    "street": "Sophienstraße 21",
+    "zip": 70178,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "Rewe City",
+    "street": "Olgastr. 86",
+    "zip": 70180,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "Rewe",
+    "street": "Ostendstr. 75",
+    "zip": 70188,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "Kaufland",
+    "street": "Aldinger Straße 70",
+    "zip": 70378,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "E-center",
+    "street": "Stammheimer Straße 10",
+    "zip": 70435,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "Marktkauf",
+    "street": "Stuttgarter Straße 46-48",
+    "zip": 70469,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "Rewe City",
+    "street": "Löwen-Markt 5",
+    "zip": 70499,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "Kaufland",
+    "street": "Wildunger Straße 2-4",
+    "zip": 70372,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "Edeka Baisch",
+    "street": "Hauptstraße 5",
+    "zip": 70563,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "E-neukauf",
+    "street": "Gaisburgstraße 2A-4A",
+    "zip": 70182,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "E-neukauf",
+    "street": "Griegstr. 25",
+    "zip": 70195,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "Rewe",
+    "street": "Freihofstr. 22-24",
+    "zip": 70439,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "E-neukauf",
+    "street": "Grazer Str. 34",
+    "zip": 70469,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "E-neukauf",
+    "street": "Kirchheimer Str. 65",
+    "zip": 70619,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "Edeka",
+    "street": "Herdweg 24",
+    "zip": 70174,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "Rewe City Güntner",
+    "street": "Ostendstr. 90",
+    "zip": 70188,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "Omega Sorg C & C Handelshof",
+    "street": "Kesselstr. 13",
+    "zip": 70327,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "Rewe Lang",
+    "street": "Naststr. 17",
+    "zip": 70376,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "Rewe",
+    "street": "Burgunderstr. 28",
+    "zip": 70435,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "City-Supermarkt",
+    "street": "Epplestr. 4",
+    "zip": 70597,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "Hit",
+    "street": "Karlstraße 4",
+    "zip": 70173,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "REWE",
+    "street": "Marienplatz 6-8",
+    "zip": 70178,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "REWE",
+    "street": "Hauptstätter Str. 147",
+    "zip": 70178,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "REWE Waldmann",
+    "street": "Otto-Hirsch-Brücken 17",
+    "zip": 70329,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "REWE Nuvoli",
+    "street": "Sophie-Tschorn-Str. 4",
+    "zip": 70374,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "REWE",
+    "street": "Industriestr. 5",
+    "zip": 70565,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "REWE",
+    "street": "Kronenstr. 7",
+    "zip": 70173,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "Rewe City Czerlinski",
+    "street": "Schwabstr. 43",
+    "zip": 70197,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "Rewe City",
+    "street": "Ulmer Str. 296",
+    "zip": 70327,
+    "town": "Stuttgart"
+  },
+  {
+    "name": "Rewe City",
+    "street": "Sontheimer Str. 10",
+    "zip": 70437,
+    "town": "Stuttgart"
+  }
+]

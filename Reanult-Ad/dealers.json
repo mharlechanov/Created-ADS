@@ -1,0 +1,874 @@
+[
+  {
+    "Händlernummer": 11006,
+    "Name": "CarUnion Hess",
+    "Str.": "Kaltenborner Str. 73",
+    "zip": 36433,
+    "ORT": "Bad Salzungen",
+    "URL": "CarUnion.de/renault-opo?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21_renault&utm_term=approcket&utm_content=knr_11006"
+  },
+  {
+    "Händlernummer": 11021,
+    "Name": "CarUnion AutoTag",
+    "Str.": "Magdeborner Str. 2",
+    "zip": "04416",
+    "ORT": "Markkleeberg",
+    "URL": "CarUnion.de/renault-opo?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21_renault&utm_term=approcket&utm_content=knr_11021"
+  },
+  {
+    "Händlernummer": 11033,
+    "Name": "CarUnion Hess",
+    "Str.": "Hauptstr. 115",
+    "zip": 98574,
+    "ORT": "Mittelschmalkalden",
+    "URL": "CarUnion.de/renault-opo?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21_renault&utm_term=approcket&utm_content=knr_11033"
+  },
+  {
+    "Händlernummer": 11052,
+    "Name": "CarUnion AutoTag",
+    "Str.": "Sprottaer Landstr. 46",
+    "zip": "04838",
+    "ORT": "Eilenburg",
+    "URL": "CarUnion.de/renault-opo?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21_renault&utm_term=approcket&utm_content=knr_11052"
+  },
+  {
+    "Händlernummer": 11065,
+    "Name": "CarUnion Hess",
+    "Str.": "Berkeser Str. 20",
+    "zip": 98617,
+    "ORT": "Meiningen",
+    "URL": "CarUnion.de/renault-opo?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21_renault&utm_term=approcket&utm_content=knr_11065"
+  },
+  {
+    "Händlernummer": 11133,
+    "Name": "CarUnion Hess",
+    "Str.": "Blaue Liede 1",
+    "zip": 36282,
+    "ORT": "Hauneck",
+    "URL": "CarUnion.de/renault-opo?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21_renault&utm_term=approcket&utm_content=knr_11133"
+  },
+  {
+    "Händlernummer": 11137,
+    "Name": "CarUnion Hess",
+    "Str.": "Schleusinger Str. 85",
+    "zip": 98646,
+    "ORT": "Hildburghausen",
+    "URL": "CarUnion.de/renault-opo?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21_renault&utm_term=approcket&utm_content=knr_11137"
+  },
+  {
+    "Händlernummer": 11139,
+    "Name": "CarUnion Hess",
+    "Str.": "Pfütschbergstr. 7",
+    "zip": 98527,
+    "ORT": "Suhl",
+    "URL": "CarUnion.de/renault-opo?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21_renault&utm_term=approcket&utm_content=knr_11139"
+  },
+  {
+    "Händlernummer": 11200,
+    "Name": "Dresdener Auto AG",
+    "Str.": "Am Galgenberg 41",
+    "zip": "01257",
+    "ORT": "Dresden",
+    "URL": "renault-autoag-dresden.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 11201,
+    "Name": "EB Automobile GmbH",
+    "Str.": "Werftstraße 9",
+    "zip": "01139",
+    "ORT": "Dresden",
+    "URL": "renault-ebautomobile-dresden.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 11240,
+    "Name": "Autohaus Mosig GmbH NL Spremberg",
+    "Str.": "Muskauer Str. 66",
+    "zip": "03130",
+    "ORT": "Spremberg",
+    "URL": "https://www.renault-erleben.de/landingpage/11240/2368_11240_Range_renault-tag.html?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 11251,
+    "Name": "Autohaus Mosig GmbH NL Senftenberg",
+    "Str.": "Laugkfeld 30",
+    "zip": "01968",
+    "ORT": "Senftenberg",
+    "URL": "https://www.renault-erleben.de/landingpage/11251/2368_11251_Range_renault-tag.html?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 11252,
+    "Name": "ASN Autohaus Schwerin Nord GmbH",
+    "Str.": "Schnitterwiese 2",
+    "zip": 19055,
+    "ORT": "Schwerin",
+    "URL": "renault-autohaus-schwerin.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 11261,
+    "Name": "Radeberger Auto AG",
+    "Str.": "An der Ziegelei 1",
+    "zip": "01454",
+    "ORT": "Radeberg",
+    "URL": "renault-radebergerauto-radeberg.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 11367,
+    "Name": "CarUnion AutoTag",
+    "Str.": "Zunftstr. 13",
+    "zip": "06847",
+    "ORT": "Dessau",
+    "URL": "CarUnion.de/renault-opo?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21_renault&utm_term=approcket&utm_content=knr_11367"
+  },
+  {
+    "Händlernummer": 11379,
+    "Name": "AH Ertl-Minute GmbH",
+    "Str.": "Kasernenstr. 2",
+    "zip": "01587",
+    "ORT": "Riesa",
+    "URL": "renault-ertlminute-riesa.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 11398,
+    "Name": "CarUnion AutoTag",
+    "Str.": "Ludwig-Hupfeld-Str. 3",
+    "zip": "04179",
+    "ORT": "Leipzig",
+    "URL": "CarUnion.de/renault-opo?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21_renault&utm_term=approcket&utm_content=knr_11398"
+  },
+  {
+    "Händlernummer": 11440,
+    "Name": "Autohaus Mosig GmbH",
+    "Str.": "Am Autopark 2",
+    "zip": "02977",
+    "ORT": "Hoyerswerda",
+    "URL": "https://www.renault-erleben.de/landingpage/11440/2368_11440_Range_renault-tag.html?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 11457,
+    "Name": "CarUnion AutoTag",
+    "Str.": "Otto-Spielmann-Str. 83",
+    "zip": 38820,
+    "ORT": "Halberstadt",
+    "URL": "CarUnion.de/renault-opo?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21_renault&utm_term=approcket&utm_content=knr_11457"
+  },
+  {
+    "Händlernummer": 11458,
+    "Name": "CarUnion AutoTag",
+    "Str.": "Am Rosengarten 3",
+    "zip": "06406",
+    "ORT": "Bernburg",
+    "URL": "CarUnion.de/renault-opo?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21_renault&utm_term=approcket&utm_content=knr_11458"
+  },
+  {
+    "Händlernummer": 11459,
+    "Name": "CarUnion AutoTag",
+    "Str.": "Ottostr. 6",
+    "zip": "06449",
+    "ORT": "Aschersleben",
+    "URL": "CarUnion.de/renault-opo?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21_renault&utm_term=approcket&utm_content=knr_11459"
+  },
+  {
+    "Händlernummer": 11461,
+    "Name": "CarUnion Steinhardt",
+    "Str.": "Am Alten See 3",
+    "zip": 99817,
+    "ORT": "Eisenach",
+    "URL": "CarUnion.de/renault-opo?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21_renault&utm_term=approcket&utm_content=knr_11461"
+  },
+  {
+    "Händlernummer": 11471,
+    "Name": "Autohaus Ulf Kleditsch",
+    "Str.": "Hohe Straße 5",
+    "zip": "01917",
+    "ORT": "Kamenz",
+    "URL": "https://www.renault-erleben.de/landingpage/11471/2368_11471_Range_renault-tag.html?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 11498,
+    "Name": "CarUnion AutoTag",
+    "Str.": "Merseburger Str. 365",
+    "zip": "06132",
+    "ORT": "Halle",
+    "URL": "CarUnion.de/renault-opo?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21_renault&utm_term=approcket&utm_content=knr_11498"
+  },
+  {
+    "Händlernummer": 11598,
+    "Name": "Autohof Altfranken GmbH",
+    "Str.": "Rudolf-Walther-Str. 2",
+    "zip": "01156",
+    "ORT": "Dresden",
+    "URL": "renault-altfranken-dresden.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 11652,
+    "Name": "AH Christian Ertl AG",
+    "Str.": "Mastener Str. 1",
+    "zip": "04720",
+    "ORT": "Döbeln",
+    "URL": "renault-ertl-doebeln.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 11658,
+    "Name": "Dresdener Auto AG Filiale Borsbergstraße",
+    "Str.": "Borsbergstraße 39",
+    "zip": "01309",
+    "ORT": "Dresden",
+    "URL": "https://www.renault-erleben.de/landingpage/11658/2368_11658_Range_renault-tag.html?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 11803,
+    "Name": "Autohaus Schulze GmbH",
+    "Str.": "Stadtweg 35",
+    "zip": "06667",
+    "ORT": "Weißenfels/ OT Tagewerben",
+    "URL": "renault-schulze-weissenfels.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 11855,
+    "Name": "Autohaus Albrecht GmbH",
+    "Str.": "Münstersche Str. 2",
+    "zip": 14772,
+    "ORT": "Brandenburg",
+    "URL": "renault-albrecht-brandenburg.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 11958,
+    "Name": "CarUnion AutoTag",
+    "Str.": "Essener Str. 27",
+    "zip": "04129",
+    "ORT": "Leipzig",
+    "URL": "CarUnion.de/renault-opo?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21_renault&utm_term=approcket&utm_content=knr_11958"
+  },
+  {
+    "Händlernummer": 12006,
+    "Name": "Autohaus Härtel GmbH",
+    "Str.": "Am Rehmanger 12",
+    "zip": 38304,
+    "ORT": "Wolfenbüttel",
+    "URL": "https://www.renault-erleben.de/landingpage/12006/2368_12006_Range_renault-tag.html?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 12030,
+    "Name": "Autohaus Süverkrüp GmbH & Co. KG",
+    "Str.": "Gutenbergstr. 11",
+    "zip": 24941,
+    "ORT": "Flensburg",
+    "URL": "renault-sueverkruep-flensburg.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 12049,
+    "Name": "Autohaus Stein GmbH",
+    "Str.": "Am Funkturm 20",
+    "zip": 29525,
+    "ORT": "Uelzen",
+    "URL": "renault-stein-uelzen.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 12066,
+    "Name": "Autohaus Süverkrüp GmbH & Co. KG",
+    "Str.": "Grüner Weg 45",
+    "zip": 24539,
+    "ORT": "Neumünster",
+    "URL": "renault-sueverkruep-neumuenster.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 12067,
+    "Name": "Autohaus Süverkrüp GmbH & Co. KG",
+    "Str.": "Büsumer Str. 97-101",
+    "zip": 24768,
+    "ORT": "Rendsburg",
+    "URL": "renault-sueverkruep-rendsburg.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 12137,
+    "Name": "Autohaus Härtel GmbH",
+    "Str.": "Hannoversche Heerstr. 4",
+    "zip": 29221,
+    "ORT": "Celle",
+    "URL": "https://www.renault-erleben.de/landingpage/12137/2368_12137_Range_renault-tag.html?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 12190,
+    "Name": "Autohaus Kaiser GmbH",
+    "Str.": "Hansestr. 96",
+    "zip": 38112,
+    "ORT": "Braunschweig",
+    "URL": "https://www.renault-erleben.de/landingpage/12190/2368_12190_Range_renault-tag.html?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 12206,
+    "Name": "CarUnion",
+    "Str.": "Wagenfeldstr. 15",
+    "zip": 30519,
+    "ORT": "Hannover",
+    "URL": "CarUnion.de/renault-opo?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21_renault&utm_term=approcket&utm_content=knr_12206"
+  },
+  {
+    "Händlernummer": 12209,
+    "Name": "CarUnion",
+    "Str.": "Steinklippenstr. 2",
+    "zip": 30890,
+    "ORT": "Barsinghausen",
+    "URL": "CarUnion.de/renault-opo?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21_renault&utm_term=approcket&utm_content=knr_12209"
+  },
+  {
+    "Händlernummer": 12221,
+    "Name": "Autohaus Süverkrüp GmbH & Co. KG",
+    "Str.": "Holzkoppelweg 18",
+    "zip": 24118,
+    "ORT": "Kiel",
+    "URL": "renault-sueverkruep-kiel.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 12229,
+    "Name": "Autohaus Stein GmbH",
+    "Str.": "Hamburger Str. 11-19",
+    "zip": 21339,
+    "ORT": "Lüneburg",
+    "URL": "renault-stein-lueneburg.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 12299,
+    "Name": "Autohaus Härtel GmbH",
+    "Str.": "Senefelderstr. 6a",
+    "zip": 38124,
+    "ORT": "Braunschweig",
+    "URL": "renault-haertel-braunschweig.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 12325,
+    "Name": "Janssen Automobile Aurich GmbH",
+    "Str.": "Korbweidenstr. 5",
+    "zip": 26605,
+    "ORT": "Aurich",
+    "URL": "renault-janssen-aurich.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 12326,
+    "Name": "Janssen Automobile Aurich GmbH Fil. Leer",
+    "Str.": "Benzstr. 4-6",
+    "zip": 26789,
+    "ORT": "Leer",
+    "URL": "renault-janssen-leer.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 13194,
+    "Name": "Wuchenauer AC GmbH",
+    "Str.": "Otto-Renner-Str. 3",
+    "zip": 89231,
+    "ORT": "Neu-Ulm",
+    "URL": "renault-wuchenauer-neuulm.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 13232,
+    "Name": "TRI AG Automobile",
+    "Str.": "Alte Pforzheimer Str. 4",
+    "zip": 75217,
+    "ORT": "Birkenfeld",
+    "URL": "renault-triag-birkenfeld.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 13259,
+    "Name": "TRI AG Automobile",
+    "Str.": "Robert-Bosch-Str. 4",
+    "zip": 77815,
+    "ORT": "Bühl",
+    "URL": "renault-triag-buehl.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 13305,
+    "Name": "Autohaus Helmut Weinmann GmbH",
+    "Str.": "Gottlieb-Daimler-Str. 2",
+    "zip": 72355,
+    "ORT": "Schömberg",
+    "URL": "renault-weinmann-schoemberg.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 13394,
+    "Name": "Autohaus Tabor GmbH",
+    "Str.": "Von-Drais-Str. 2",
+    "zip": 77855,
+    "ORT": "Achern",
+    "URL": "renault-tabor-achern.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 13480,
+    "Name": "Autohaus Josef Fischer GmbH",
+    "Str.": "Opalstr. 44",
+    "zip": 84032,
+    "ORT": "Altdorf",
+    "URL": "renault-fischer-altdorf.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 13626,
+    "Name": "TRI AG Automobile",
+    "Str.": "Kehnerfeld 17-21",
+    "zip": 77971,
+    "ORT": "Kippenheim",
+    "URL": "renault-triag-kippenheim.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 13745,
+    "Name": "Autohaus von der Weppen GmbH & Co. KG",
+    "Str.": "Heilbronner Straße 305",
+    "zip": 70469,
+    "ORT": "Stuttgart",
+    "URL": "renault-vonderweppen-stuttgart.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 13747,
+    "Name": "Autohaus von der Weppen GmbH & Co. KG",
+    "Str.": "Neckarsulmer Str. 87",
+    "zip": 74076,
+    "ORT": "Heilbronn",
+    "URL": "renault-vonderweppen-heilbronn.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 13749,
+    "Name": "Autohaus von der Weppen GmbH",
+    "Str.": "Bürgermeister-Wegele-Str. 20-22",
+    "zip": 86167,
+    "ORT": "Augsburg",
+    "URL": "renault-vonderweppen-augsburg.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 13763,
+    "Name": "Auto Bayer Fil. von der Weppen GmbH&CoKG",
+    "Str.": "Allmendstr. 12",
+    "zip": 77948,
+    "ORT": "Friesenheim",
+    "URL": "renault-vonderweppen-friesenheim.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 13785,
+    "Name": "Dreher Automobile GmbH",
+    "Str.": "Mozartstr. 12",
+    "zip": 73663,
+    "ORT": "Berglen-Oppelsbohm",
+    "URL": "renault-dreher-berglenoppelsbohm.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 13819,
+    "Name": "AH Sehner GmbH & Co.KG NL Schwenningen",
+    "Str.": "Neuffenstr. 7",
+    "zip": 78056,
+    "ORT": "Villingen-Schwenningen",
+    "URL": "renault-sehner-schwenningen.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 13820,
+    "Name": "AH Arnegger ZwNl. AH Sehner GmbH & Co.KG",
+    "Str.": "Ravensburger Straße 13",
+    "zip": 88214,
+    "ORT": "Ravensburg",
+    "URL": "renault-arnegger-ravensburg.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 13845,
+    "Name": "Auto-Haass GmbH",
+    "Str.": "Schwieberdinger Str. 125",
+    "zip": 71636,
+    "ORT": "Ludwigsburg",
+    "URL": "renault-haass-ludwigsburg.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 13865,
+    "Name": "Autohaus Walter Mulfinger GmbH",
+    "Str.": "Ferdinand-Porsche-Str. 2",
+    "zip": 73457,
+    "ORT": "Essingen",
+    "URL": "https://www.renault-erleben.de/landingpage/13865/2368_13865_Range_renault-tag.html?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 13880,
+    "Name": "AH Beisswänger GmbH",
+    "Str.": "Stuttgarter Str. 35",
+    "zip": 72766,
+    "ORT": "Reutlingen",
+    "URL": "renault-beisswaenger-reutlingen.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 13890,
+    "Name": "TRI AG Automobile",
+    "Str.": "Saarstr. 15",
+    "zip": 76532,
+    "ORT": "Baden-Baden",
+    "URL": "renault-triag-badenbaden.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 14744,
+    "Name": "Automobile Kraus GmbH",
+    "Str.": "Lilienthalstr. 2",
+    "zip": 93049,
+    "ORT": "Regensburg",
+    "URL": "renault-kraus-regensburg.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 14928,
+    "Name": "Autohaus Waldemar Grosch GmbH & Co. KG",
+    "Str.": "Rodacher Str. 64",
+    "zip": 96450,
+    "ORT": "Coburg",
+    "URL": "renault-grosch-coburg.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 14934,
+    "Name": "Autohaus Ullein GmbH",
+    "Str.": "Rodezstr. 11",
+    "zip": 96052,
+    "ORT": "Bamberg",
+    "URL": "renault-ullein-bamberg.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 14956,
+    "Name": "Sonnleitner Germany GmbH",
+    "Str.": "Lübener Str. 16",
+    "zip": 90471,
+    "ORT": "Nürnberg",
+    "URL": "renault-sonnleitner-nuernberg.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 14959,
+    "Name": "Ing. L. Freitag GmbH & Co. KG",
+    "Str.": "Chamer Str. 37",
+    "zip": 94315,
+    "ORT": "Straubing",
+    "URL": "renault-automobile-freitag.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 14967,
+    "Name": "Autohaus A. Wittke GmbH & Co. KG",
+    "Str.": "Marktredwitzer Str. 44",
+    "zip": 95632,
+    "ORT": "Wunsiedel",
+    "URL": "renault-wittke-wunsiedel.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 15075,
+    "Name": "Autohaus Bieger GmbH",
+    "Str.": "Am Stachus 1",
+    "zip": 63820,
+    "ORT": "Elsenfeld",
+    "URL": "https://www.renault-erleben.de/landingpage/15075/2368_15075_Range_renault-tag.html?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 15190,
+    "Name": "Autohaus Grohs GmbH & Co. KG",
+    "Str.": "Rudolf-Diesel-Str. 5",
+    "zip": 55543,
+    "ORT": "Bad Kreuznach",
+    "URL": "renault-grohs-badkreuznach.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 15302,
+    "Name": "Autohaus Lotz KG",
+    "Str.": "Robert-Bosch-Str. 33",
+    "zip": 64625,
+    "ORT": "Bensheim",
+    "URL": "renault-lotz-bensheim.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 15372,
+    "Name": "Autohaus Scheuerling",
+    "Str.": "Robert-Bosch-Str. 20",
+    "zip": 61267,
+    "ORT": "Neu-Anspach",
+    "URL": "renault-scheuerling-neuanspach.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 15423,
+    "Name": "AH Raiffeisen Eifel-Mosel-Saar GmbH",
+    "Str.": "Rudolf-Diesel-Str. 3",
+    "zip": 54516,
+    "ORT": "Wittlich",
+    "URL": "renault-raiffeisen-wittlich.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 15424,
+    "Name": "AH Raiffeisen Eifel-Mosel-Saar GmbH",
+    "Str.": "Gottbillstr. 42",
+    "zip": 54294,
+    "ORT": "Trier",
+    "URL": "renault-raiffeisen-trier.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 15428,
+    "Name": "AH Raiffeisen Eifel-Mosel-Saar GmbH",
+    "Str.": "Lauterstr. 113",
+    "zip": 67657,
+    "ORT": "Kaiserslautern",
+    "URL": "renault-kehry-kaiserslautern.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 15501,
+    "Name": "Ludwig Hill GmbH",
+    "Str.": "Weinheimer Landstr. 79",
+    "zip": 55232,
+    "ORT": "Alzey",
+    "URL": "renault-hill-alzey.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 15519,
+    "Name": "Auto Weber GmbH",
+    "Str.": "Martin-Luther-King-Str. 10",
+    "zip": 63452,
+    "ORT": "Hanau",
+    "URL": "renault-weber-hanau.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 16008,
+    "Name": "Autohaus Fahnenbruck GmbH",
+    "Str.": "Bergheimerstr. 139",
+    "zip": 47228,
+    "ORT": "Duisburg",
+    "URL": "renault-fahnenbruck-rheinhausen.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 16011,
+    "Name": "AH Raiffeisen Eifel-Mosel-Saar GmbH",
+    "Str.": "Dieselstraße 8",
+    "zip": 54634,
+    "ORT": "Bitburg",
+    "URL": "renault-raiffeisen-bitburg.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 16024,
+    "Name": "Autohaus Hartmann GmbH",
+    "Str.": "Edisonstr.6",
+    "zip": 48432,
+    "ORT": "Rheine",
+    "URL": "renault-hartmann-rheine.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 16029,
+    "Name": "Autohaus Mühlenbruch GmbH",
+    "Str.": "In der Au 26",
+    "zip": 57290,
+    "ORT": "Neunkirchen",
+    "URL": "renault-autohaus-muehlenbruch.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 16042,
+    "Name": "Autohaus Twent Teil der Bleker Gruppe",
+    "Str.": "Kölner Str. 1",
+    "zip": 48163,
+    "ORT": "Münster",
+    "URL": "renault-twent-muenster.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 16043,
+    "Name": "Autozentrum P&A GmbH",
+    "Str.": "Weseler Str. 144",
+    "zip": 47608,
+    "ORT": "Geldern",
+    "URL": "renault-pa-geldern.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 16062,
+    "Name": "Autohaus Twent Teil der Bleker Gruppe",
+    "Str.": "Königsberger Straße 3",
+    "zip": 46325,
+    "ORT": "Borken",
+    "URL": "renault-twent-borken.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 16066,
+    "Name": "Autohaus Twent Teil der Bleker Gruppe",
+    "Str.": "Von-Braun-Str. 62-64",
+    "zip": 48683,
+    "ORT": "Ahaus",
+    "URL": "renault-twent-ahaus.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 16115,
+    "Name": "Autozentrum P&A GmbH",
+    "Str.": "Höhscheider Str. 95",
+    "zip": 42699,
+    "ORT": "Solingen",
+    "URL": "renault-pa-solingen.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 16133,
+    "Name": "Otto Bitter GmbH & Co. KG",
+    "Str.": "Stadtring 7",
+    "zip": 33647,
+    "ORT": "Bielefeld",
+    "URL": "https://www.renault-erleben.de/landingpage/16133/2368_16133_Range_renault-tag.html?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 16261,
+    "Name": "Autohaus Hartmann GmbH",
+    "Str.": "Gildestr. 13",
+    "zip": 49477,
+    "ORT": "Ibbenbüren",
+    "URL": "renault-hartmann-ibbenbueren.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 16361,
+    "Name": "Autohaus Hartmann GmbH",
+    "Str.": "Zum Kaiserbusch 25",
+    "zip": 48165,
+    "ORT": "Münster",
+    "URL": "renault-hartmann-muenster.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 16368,
+    "Name": "Autohaus Fahnenbruck GmbH",
+    "Str.": "Ruhrdeich 130",
+    "zip": 47059,
+    "ORT": "Duisburg",
+    "URL": "renault-fahnenbruck-zentrum.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 16432,
+    "Name": "Preckel GmbH & Co. KG",
+    "Str.": "Virchowstr. 140-146",
+    "zip": 47805,
+    "ORT": "Krefeld",
+    "URL": "renault-preckel-krefeld.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 16455,
+    "Name": "Autozentrum P&A GmbH",
+    "Str.": "Monschauer Str. 34",
+    "zip": 41068,
+    "ORT": "Mönchengladbach",
+    "URL": "renault-pa-moenchengladbach.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 16465,
+    "Name": "Autohaus Pape GmbH",
+    "Str.": "Barendorfer Bruch 26",
+    "zip": 58640,
+    "ORT": "Iserlohn",
+    "URL": "renault-pape-iserlohn.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 16472,
+    "Name": "Autohaus Pape Balve GmbH",
+    "Str.": "Hönnetalstr. 61",
+    "zip": 58802,
+    "ORT": "Balve",
+    "URL": "https://www.renault-erleben.de/landingpage/16472/2368_16472_Range_renault-tag.html?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 16487,
+    "Name": "AH Horst Beyer GmbH Filiale Unna",
+    "Str.": "Max-Planck-Str. 11",
+    "zip": 59423,
+    "ORT": "Unna",
+    "URL": "renault-beyer-unna.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 16737,
+    "Name": "HAMA Automobile GmbH",
+    "Str.": "Halterner Str. 40-42",
+    "zip": 46485,
+    "ORT": "Wesel",
+    "URL": "renault-hama-wesel.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 23000,
+    "Name": "Renault Retail Group Deutschland GmbH",
+    "Str.": "Weißenseer Weg 32-34",
+    "zip": 13055,
+    "ORT": "Berlin",
+    "URL": "renault-retail-berlin-fennpfuhl.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 23008,
+    "Name": "Renault Retail Group Deutschland GmbH",
+    "Str.": "Einsteinstr. 33",
+    "zip": 53757,
+    "ORT": "St.Augustin",
+    "URL": "renault-retail-sanktaugustin.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 23014,
+    "Name": "Renault Retail Group Deutschland GmbH",
+    "Str.": "Germaniastr. 145-149",
+    "zip": 12099,
+    "ORT": "Berlin",
+    "URL": "renault-retail-berlin-tempelhof.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 23015,
+    "Name": "Renault Retail Group Deutschland GmbH",
+    "Str.": "Roedernallee 171-173",
+    "zip": 13407,
+    "ORT": "Berlin",
+    "URL": "renault-berlin-reinickendorf.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 23085,
+    "Name": "Renault Retail Group Deutschland GmbH",
+    "Str.": "Friedrich-Ebert-Damm 319-321",
+    "zip": 22159,
+    "ORT": "Hamburg",
+    "URL": "https://www.renault-erleben.de/landingpage/23085/2368_23085_Range_renault-tag.html?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 23212,
+    "Name": "Renault Retail Group Deutschland GmbH",
+    "Str.": "Behringstr. 128-134",
+    "zip": 22763,
+    "ORT": "Hamburg",
+    "URL": "renault-retailgroup-hamburg.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 23315,
+    "Name": "Renault Retail Group Deutschland GmbH",
+    "Str.": "Nedderfeld 80",
+    "zip": 22529,
+    "ORT": "Hamburg",
+    "URL": "https://www.renault-erleben.de/landingpage/23315/2368_23315_Range_renault-tag.html?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 23406,
+    "Name": "Renault Retail Group Deutschland GmbH",
+    "Str.": "Hanauer Landstr. 344-346",
+    "zip": 60314,
+    "ORT": "Frankfurt",
+    "URL": "renault-retailgroup-frankfurt.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 23412,
+    "Name": "Renault Retail Group Deutschland GmbH",
+    "Str.": "Blankenburger Str. 85-105",
+    "zip": 13156,
+    "ORT": "Berlin",
+    "URL": "renault-retail-berlin-pankow.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 23603,
+    "Name": "Renault Retail Group Deutschland GmbH",
+    "Str.": "Weisshausstr. 1-5",
+    "zip": 50939,
+    "ORT": "Köln",
+    "URL": "renault-retailgroup-koeln.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 23708,
+    "Name": "Renault Retail Group Deutschland GmbH",
+    "Str.": "Frankfurter Ring 71",
+    "zip": 80807,
+    "ORT": "München",
+    "URL": "renault-retailgroup-muenchen.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 23709,
+    "Name": "Renault Retail Group Deutschland GmbH",
+    "Str.": "Wasserburger Landstr. 143",
+    "zip": 81827,
+    "ORT": "München",
+    "URL": "renault-retail-muenchen-wabu.de/renault-tage?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  },
+  {
+    "Händlernummer": 14357,
+    "Name": "Sonnleitner Germany GmbH",
+    "Str.": "Berlichingenstr. 15",
+    "zip": 91126,
+    "ORT": "Schwabach",
+    "URL": "https://www.renault-erleben.de/landingpage/14357/2368_14357_Range_renault-tag.html?utm_source=approcket&utm_medium=display&utm_campaign=opo_jan21&utm_term=approcket&pk_campaign=opo_jan21&pk_source=approcket&pk_medium=display"
+  }
+]

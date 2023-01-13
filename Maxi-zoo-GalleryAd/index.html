@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+</head>
+
+<body>
+    <meta charset="UTF-8" />
+    <title>Fressnapf</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+    <script>
+        var clickURL = "";
+        var clickURL1 = "";
+        var clickURL2 = "";
+        var clickURL3 = "";
+        var clickURL4 = "";
+        var clickURL5 = "";
+        var clickURL6 = "";
+        var clickURL7 = "";
+        var galleryChangedTrackURL = "";
+        var trackGoogleMaps = "";
+
+
+
+        function clickOut(url) {
+            window.open(url, "_blank");
+        };
+        var userZip = "D22 PC56";
+
+        var shopURL = "";
+        function onCTAClicked() {
+            if (shopURL) {
+                addTrackingScript(trackGoogleMaps);
+                clickOut(shopURL);
+            } else {
+                clickOut(clickURL);
+            }
+        };
+
+        function onProductClicked(e) {
+            clickOut(e.object.clickUrl);
+        };
+
+        function onClickTillLoading() {
+            clickOut(clickURL);
+        };
+
+        var galleryArray = [
+            { imgUrl: "img/empty.png", imgUrl2: "img/1.png", logo: "img/empty.png", red: "img/empty.png", cat: "img/empty.png", dog: "img/empty.png", priceImg: "img/empty.png", clickUrl: clickURL, right: "68%", textImg: "img/empty.png", width2: "30%", bottom: "", prodImg: "img/empty.png", width: "", right2: "0%", trackingURL: galleryChangedTrackURL },
+            { imgUrl: "img/2.png", imgUrl2: "img/empty.png", logo: "img/logo.png", red: "img/left.png", cat: "img/empty.png", dog: "img/empty.png", priceImg: "img/txt-2.png", clickUrl: clickURL1, right: "68%", textImg: "img/line-2.png", width2: "27%", bottom: "", prodImg: "img/prod-2.png", width: "", right2: "", trackingURL: galleryChangedTrackURL },
+            { imgUrl: "img/empty.png", imgUrl2: "img/3.png", logo: "img/logo_red.png", red: "img/empty.png", cat: "img/empty.png", dog: "img/empty.png", priceImg: "img/empty.png", clickUrl: clickURL2, right: "68%", textImg: "img/empty.png", width2: "20%", bottom: "", prodImg: "img/empty.png", width: "", right2: "", trackingURL: galleryChangedTrackURL },
+            { imgUrl: "img/2.png", imgUrl2: "img/empty.png", logo: "img/logo.png", red: "img/left.png", cat: "img/empty.png", dog: "img/empty.png", priceImg: "img/txt-4.png", clickUrl: clickURL3, right: "68%", textImg: "img/line-4.png", width2: "36%", bottom: "", prodImg: "img/prod-4.png", width: "68%", right2: "15%", trackingURL: galleryChangedTrackURL },
+            { imgUrl: "img/empty.png", imgUrl2: "img/5.png", logo: "img/logo.png", red: "img/empty.png", cat: "img/cat.png", dog: "img/dog.png", priceImg: "img/empty.png", clickUrl: clickURL4, right: "68%", textImg: "img/empty.png", width2: "30%", bottom: "", prodImg: "img/empty.png", width: "", right2: "", trackingURL: galleryChangedTrackURL },
+            { imgUrl: "img/6.png", imgUrl2: "img/empty.png", logo: "img/logo.png", red: "img/left.png", cat: "img/empty.png", dog: "img/empty.png", priceImg: "img/txt-6.png", clickUrl: clickURL5, right: "68%", textImg: "img/line-6.png", width2: "40%", bottom: "", prodImg: "img/prod-6.png", width: "", right2: "", trackingURL: galleryChangedTrackURL },
+            { imgUrl: "img/empty.png", imgUrl2: "img/7.png", logo: "img/logo.png", red: "img/empty.png", cat: "img/empty.png", dog: "img/empty.png", priceImg: "img/empty.png", clickUrl: clickURL6, right: "68%", textImg: "img/empty.png", width2: "20%", bottom: "", prodImg: "img/empty.png", width: "", right2: "", trackingURL: galleryChangedTrackURL },
+            { imgUrl: "img/6.png", imgUrl2: "img/empty.png", logo: "img/logo.png", red: "img/left.png", cat: "img/empty.png", dog: "img/empty.png", priceImg: "img/txt-8.png", clickUrl: clickURL7, right: "68%", textImg: "img/line-8.png", width2: "28%", bottom: "", prodImg: "img/prod-8.png", width: "61%", right2: "18%", trackingURL: galleryChangedTrackURL }
+
+        ];
+
+        function addTrackingScript(trackURL) {
+            var img = new Image();
+            img.src = trackURL;
+        };
+
+        var prevGalleryItem = -1
+        function trackGalleryItem(e) {
+            if (e.index !== prevGalleryItem) {
+                prevGalleryItem = e.index;
+                addTrackingScript(e.object.trackingURL);
+            }
+        };
+
+
+        function killLoader() {
+            document.querySelector("body").onclick = null;
+            document.getElementById("preloader").style.display = "none";
+            generalPreloader.stop();
+
+            document.querySelector("#static-container").style.opacity = 1;
+            document.querySelector("#scroller-informer").style.opacity = 0;
+
+
+        };
+
+
+        function onBodyLoad() {
+            console.log("test");
+            initBanner();
+        };
+
+    </script>
+    <link rel="stylesheet" href="style/banner.css?t=7">
+
+
+    <div id="preloader"
+        style="position:absolute; width:10%; height:10%; left: 50%; top: 50%; transform: translate(-50%,-50%)"> </div>
+
+    <script src="js/lottie.min.js"></script>
+    <script>
+        var generalPreloader = lottie.loadAnimation({
+            container: document.getElementById("preloader"),
+            renderer: "svg",
+            loop: true,
+            autoplay: true,
+            path: "img/preloader.json"
+        });
+
+    </script>
+    <script src="js/productGallery.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+
+    <div id="ad-container" style="display: none;">
+
+
+        <div id="scrolling-container" style="opacity:0">
+
+            <div class="products-scrolling">
+                <!--Gallery items will be placed here--->
+            </div>
+            <img src="img/arrow.png" class="left-arrow">
+            <img src="img/arrow.png" class="right-arrow">
+
+        </div>
+
+
+
+        <!-- second banner part --->
+        <div id="static-container" style="opacity:0">
+            <img id="CTA" src="img/cta-button.png" onclick="onCTAClicked()">
+        </div>
+
+        <!-- top scrolling indicator -->
+        <div id="scroller-informer" style="opacity:0">
+            <div id="scroller-indicator"></div>
+        </div>
+    </div>
+    <div id="landscape_fallback" style="display: none;">
+        <div class="fallback_content">
+            <img src="img/no-landscape.jpg" style="width: 80%;">
+        </div>
+    </div>
+
+    <script src="js/FallbackController.js"></script>
+    <script src="js/bodyScrollLock.js"></script>
+    <script id="galleryItem" type="text/html">
+        <div id = "{{id}}" class = "item-product" style="background-image: url({{img}})">
+            <div class = "item-product2" style="background-image: url({{img2}})"></div>
+            <div class="price" style="right:{{right}}">
+                <img src="{{priceImg}}"/>
+            </div>
+            <div class="textImg" style="width:{{width2}}; bottom:{{bottom}}" >
+                <img src="{{textImg}}"/>
+            </div>
+            <div class="prodImg" style="width:{{width}}; right:{{right2}}" >
+                <img src="{{prodImg}}"/>
+            </div>
+            <div class="logo">
+                <img src="{{logo}}"/>
+            </div>
+
+            
+            <div class="red">
+                <img src="{{red}}"/>
+            </div>
+            <div class="cat">
+                <img src="{{cat}}"/>
+            </div>
+            <div class="dog">
+                <img src="{{dog}}"/>
+            </div>
+        </div>
+    </script>
+    <script src="js/index.js"></script>
+    <script>
+        var body = document.getElementsByTagName("body")[0];
+        body.addEventListener('onclick', onClickTillLoading, false);
+        onBodyLoad();
+    </script>
+
+
+</body>
+
+</html>

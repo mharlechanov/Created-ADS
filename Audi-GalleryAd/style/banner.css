@@ -1,0 +1,146 @@
+#bg,#gallery{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+#bg{
+    top:-5%;
+}
+
+
+.top-section{
+    height: 35%;
+    width: 100%;
+    position: absolute;
+}
+
+.bottom-section{
+    height:65%;
+    width: 100%;
+    position: absolute;
+    top:35%;
+
+}
+.top-element{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.txt-elemet{
+    position: absolute;
+    width: 100%;
+    height: 9vw;
+    bottom: 1vw;
+    margin-left: 5vw;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+.bottom-txt-elemet{
+    position: absolute;
+    width: 100%;
+    height: 9vw;
+    top: 1vw;
+    margin-left: 5vw;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+}
+.bottom-txt-elemet-cta{
+    position: absolute;
+    width: 90%;
+    height: 60vw;
+    top: 6%;
+    margin-left: 5vw;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+
+}
+
+.top-element img{
+    position: absolute;
+    height:10vw;
+    top:-10vw;
+}
+
+
+#logo{
+    width: 30%;
+    top:5vw;
+    left:5vw;
+    position: absolute;
+}
+
+#disclamer {
+    position: absolute;
+    left: 5vw;
+    bottom: 0;
+    height: 20%;
+    width: 90%;
+    background-position: left center;
+    background-repeat:no-repeat;
+}
+#popup{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    position: absolute;
+    top:0;
+    left: 0;
+
+}
+
+#popup-txt{
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    bottom: 2vw;
+}
+
+#close-txt{
+    position: absolute;
+    width: 15%;
+    left: 44%;
+    bottom: 100vw;
+}
+
+#disc-link{
+    height: 10%;
+    position: absolute;
+    width: 100%;
+
+    bottom: 0;
+}
+#pager{
+    width: 30%;
+    height: 4vw;
+    position: absolute;
+
+    left: calc(50% - 2vw);
+    bottom : 21%;
+    transform: translate(-50%);
+
+}
+.bullet{
+    height: 4vw;
+    width: 4vw;
+    background-size: contain;
+    position: absolute;
+}
+.bullet img{
+    position: absolute;
+
+}
